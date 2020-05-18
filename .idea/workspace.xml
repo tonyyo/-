@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13633307-bfe2-43ac-9f63-50970f979607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/540_有序数组中的单一元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/Letcode/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode代码笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode代码笔记.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/110_平衡二叉树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/124_二叉树的最大路径和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/1372_二叉树的最长交错路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/1372_二叉树的最长交错路径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/21_合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/21_合并两个有序链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/264_丑数堆实现.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/264_丑数堆实现.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/290_单词规律.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/290_单词规律.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/38_外观数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/48_旋转图像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/48_旋转图像.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/540_有序数组中的单一元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/540_有序数组中的单一元素.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/543_二叉树的直径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/563_二叉树的坡度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/564_寻找最近的回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/564_寻找最近的回文数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/617_合并二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/617_合并二叉树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/862_和至少为k的最短子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/862_和至少为k的最短子数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/88_合并两个有序数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/LCP 14. 切分数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$tcode代码笔记.docx" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,64 +30,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="算法" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,105 +58,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/212_滑动窗口的中位数_deque.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/244_三元式解析器_栈和for i in循环中的i无效.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/246_用栈实现队列_取数据时加一个调整函数就可.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/247_用栈模拟汉诺塔问题_用队列实现更好_得用多个栈.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/248_带最小值操作的栈_分成了两个栈进行处理.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/253_用循环数组来实现队列_这样实现很垃圾.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/281_堆化操作_python中有堆排序的函数.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/295_加油站_采用双向队列实现循环队列.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/栈_heapq_deque/298_寻找最便宜的航行旅途_字典和heapq的应用.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/二分分治法/75_搜索旋转排序数组中的最小值Ⅰ_懂了结构其实不需要用二分法.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/二分分治法/241_木材加工_二分查找.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/回溯递归/293_装最多水的容器_二分法的变相应用.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/294_接雨水_二分法应用.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/二分分治法/296_分糖果_首尾并用.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/80_两个整数数组的最小差_做复杂了.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/203_乘积最大子序列_灵活利用最大和子数组.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/234_硬币摆放_这似乎是一个定理.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/235_硬币排成线I_3的倍数就会输.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/集合、列表/245_符号串生成器_该算法可以被优化.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/271_最多有多少个点在一条直线上_以某个点作为起始点遍历全部.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/274_第k个质数_求质数的新方法_找出非质数.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/__init__.py" />
-        <option value="$PROJECT_DIR$/Python算法指南/思路新颖/292_分割标签_思路新颖.py" />
-        <option value="$PROJECT_DIR$/数据结构练习/一个数的阶乘尾部有多少个0.py" />
-        <option value="$PROJECT_DIR$/剑指offer/变态跳台阶.py" />
-        <option value="$PROJECT_DIR$/数据结构练习/Python算法指南数据结构/147_前序遍历树和中序遍历树构造二叉树.py" />
-        <option value="$PROJECT_DIR$/剑指offer/二进制中1.py" />
-        <option value="$PROJECT_DIR$/剑指offer/二进制中1的个数.py" />
-        <option value="$PROJECT_DIR$/剑指offer/数值的整数次方.py" />
-        <option value="$PROJECT_DIR$/剑指offer/调整数组顺序使奇数在前偶数在后.py" />
-        <option value="$PROJECT_DIR$/剑指offer/合并两个排序的链表.py" />
-        <option value="$PROJECT_DIR$/剑指offer/树的子结构.py" />
-        <option value="$PROJECT_DIR$/华为机试/质数因子.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/华为机试/坐标移动.py" />
-        <option value="$PROJECT_DIR$/华为机试/识别有效的IP地址和掩码并进行分类统计.py" />
-        <option value="$PROJECT_DIR$/华为机试/购物单.py" />
-        <option value="$PROJECT_DIR$/华为机试/__init__.py" />
-        <option value="$PROJECT_DIR$/剑指offer/栈的压入_弹出序列.py" />
-        <option value="$PROJECT_DIR$/剑指offer/二叉搜索树的后序遍历序列.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/862_和至少为k的最短子数组.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/test.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/540_有序数组中的单一元素.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py" />
-        <option value="$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="937" />
-    <option name="height" value="1087" />
-  </component>
   <component name="ProjectId" id="1UWG0YVhjOkVSSqSnkT2yf8ZFOt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Letcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -232,19 +90,28 @@
       <recent name="F:\PycharmProjects\算法\Python算法指南\回溯递归" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.38_外观数列">
+    <configuration name="坐标移动" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="算法" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/华为机试" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为机试/坐标移动.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="38_外观数列" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="算法" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,27 +188,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="坐标移动" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="算法" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/华为机试" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为机试/坐标移动.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,18 +290,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -499,69 +333,37 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1861" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2428728" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3393617" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4074468" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31914893" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="58" width="800" height="677" key="#Notifications" timestamp="1578875568050">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state x="248" y="58" width="800" height="677" key="#Notifications/0.27.1307.741@0.27.1307.741" timestamp="1578875568050" />
-    <state x="111" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578826487166">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state x="111" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1307.741@0.27.1307.741" timestamp="1578826487166" />
-    <state x="496" y="288" width="305" height="217" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1579763227899">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state x="496" y="288" width="305" height="217" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.27.1307.741@0.27.1307.741" timestamp="1579763227899" />
-    <state x="412" y="267" width="472" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580553903396">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state x="412" y="267" width="472" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1307.741@0.27.1307.741" timestamp="1580553903396" />
     <state width="1259" height="140" key="GridCell.Tab.0.bottom" timestamp="1581937439813">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.bottom/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="873" height="277" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575993378212" />
     <state width="1259" height="140" key="GridCell.Tab.0.center" timestamp="1581937439813">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.center/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="873" height="277" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575993378212" />
     <state width="1259" height="140" key="GridCell.Tab.0.left" timestamp="1581937439813">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.left/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="873" height="277" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575993378212" />
     <state width="1259" height="140" key="GridCell.Tab.0.right" timestamp="1581937439813">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.right/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="873" height="277" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575993378212" />
     <state width="1259" height="140" key="GridCell.Tab.1.bottom" timestamp="1581937439815">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
@@ -578,28 +380,18 @@
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.1.right/0.27.1307.741@0.27.1307.741" timestamp="1581937439814" />
-    <state x="285" y="38" key="SettingsEditor" timestamp="1578793454562">
-      <screen x="0" y="27" width="1307" height="741" />
+    <state x="1882" y="174" key="SettingsEditor" timestamp="1589763714203">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="285" y="38" key="SettingsEditor/0.27.1307.741@0.27.1307.741" timestamp="1578793454562" />
-    <state x="1785" y="187" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575464944017" />
-    <state width="512" height="447" key="SwitcherDM" timestamp="1579072655834">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state width="512" height="447" key="SwitcherDM/0.27.1307.741@0.27.1307.741" timestamp="1579072655834" />
+    <state x="1882" y="174" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589763714203" />
     <state x="454" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1581902205771">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state x="454" y="247" key="com.intellij.ide.util.TipDialog/0.27.1307.741@0.27.1307.741" timestamp="1581902205771" />
-    <state x="2445" y="381" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1575977591847" />
     <state x="246" y="39" width="804" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581910245998">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state x="246" y="39" width="804" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1307.741@0.27.1307.741" timestamp="1581910245998" />
-    <state x="171" y="125" width="1107" height="543" key="dock-window-1" timestamp="1581042458654">
-      <screen x="0" y="27" width="1307" height="741" />
-    </state>
-    <state x="171" y="125" width="1107" height="543" key="dock-window-1/0.27.1307.741@0.27.1307.741" timestamp="1581042458654" />
     <state x="398" y="40" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1581731024009">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
@@ -608,6 +400,10 @@
       <screen x="0" y="27" width="1307" height="741" />
     </state>
     <state x="316" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1307.741@0.27.1307.741" timestamp="1581906100846" />
+    <state x="2065" y="379" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589764020797">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="379" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589764020797" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,556 +509,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$68__.coverage" NAME="68_连续子数组最大和_灵活运用字典和各种类型转换 Coverage Results" MODIFIED="1580352764159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$58__.coverage" NAME="58_最大矩形_上述直方图的应用 Coverage Results" MODIFIED="1580123798180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$17_.coverage" NAME="17_下一个稀疏数 Coverage Results" MODIFIED="1578923263842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$22__.coverage" NAME="22_下一个更大的数_代码有问题 Coverage Results" MODIFIED="1579663063861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$93_.coverage" NAME="93_攀爬字符串 Coverage Results" MODIFIED="1580440055210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$25_III_.coverage" NAME="25_落单的数III_方法巧妙没搞懂 Coverage Results" MODIFIED="1579676131492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$184_.coverage" NAME="184_电话号码的字母组合 Coverage Results" MODIFIED="1580693198133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$269_.coverage" NAME="269_集合合并 Coverage Results" MODIFIED="1581236517035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$278__.coverage" NAME="278_被围绕的区域_逆向回溯 Coverage Results" MODIFIED="1581331897754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$32_.coverage" NAME="32_统计数字 Coverage Results" MODIFIED="1579069098313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$85_.coverage" NAME="85_最长无重复字符的子串 Coverage Results" MODIFIED="1580383791300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$32__.coverage" NAME="32_统计数字_整除符号和取余符号的结合使用 Coverage Results" MODIFIED="1579683768378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$24_II_.coverage" NAME="24_落单的数II_取模的巧妙运用 Coverage Results" MODIFIED="1579665268856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$77_.coverage" NAME="77_搜索旋转排序数组目标值Ⅰ Coverage Results" MODIFIED="1580368810816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$207_I.coverage" NAME="207_跳跃游戏I Coverage Results" MODIFIED="1580816190795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$217_I.coverage" NAME="217_子集I Coverage Results" MODIFIED="1580870455377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$36_II.coverage" NAME="36_丑数II Coverage Results" MODIFIED="1579074394479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$277_.coverage" NAME="277_爬楼梯 Coverage Results" MODIFIED="1581307206901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$39_II.coverage" NAME="39_两数之和II Coverage Results" MODIFIED="1579077708347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$62_k.coverage" NAME="62_k个不重叠子数组最大和 Coverage Results" MODIFIED="1579484220203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$5_xn_n.coverage" NAME="5_x的n次幂_正负n Coverage Results" MODIFIED="1581727453473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$33_.coverage" NAME="33_删除数字 Coverage Results" MODIFIED="1579069917784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$38_I_hash.coverage" NAME="38_两数之和I_建立hash映射 Coverage Results" MODIFIED="1579762583515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$268_.coverage" NAME="268_合并账户 Coverage Results" MODIFIED="1581241229247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$9__.coverage" NAME="9_罗马数字转换为整数_集合的巧妙运用 Coverage Results" MODIFIED="1581731087303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$108_.coverage" NAME="108_字模式 Coverage Results" MODIFIED="1580519727182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$178_.coverage" NAME="178_单词矩阵 Coverage Results" MODIFIED="1580615855351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$233_.coverage" NAME="233_换硬币 Coverage Results" MODIFIED="1580975927630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$2__.coverage" NAME="2_判断平方数_二分查找 Coverage Results" MODIFIED="1581646237746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$68_.coverage" NAME="68_连续子数组最大和 Coverage Results" MODIFIED="1580264649436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$91_.coverage" NAME="91_乱序字符串 Coverage Results" MODIFIED="1580436295496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$10___.coverage" NAME="10_整数转换为罗马数字_集合的巧妙运用_背 Coverage Results" MODIFIED="1581734542780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$241_.coverage" NAME="241_木材加工 Coverage Results" MODIFIED="1581037522828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$221_III_queue.coverage" NAME="221_迷宫III_完美利用队列queue Coverage Results" MODIFIED="1580891885808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$175_.coverage" NAME="175_滑动窗口内唯一元素数量和 Coverage Results" MODIFIED="1580560796088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$35_I_.coverage" NAME="35_丑数I_除符号和取余符号的结合使用 Coverage Results" MODIFIED="1579750383396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$261__.coverage" NAME="261_太平洋和大西洋的水流_先检查下代码 Coverage Results" MODIFIED="1581211094370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$12__dfs.coverage" NAME="12_整数替换_dfs Coverage Results" MODIFIED="1579597093374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$31_0_.coverage" NAME="31_阶乘尾部0的个数_定理 Coverage Results" MODIFIED="1579682298533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$3_2.coverage" NAME="3_检测2的幂次 Coverage Results" MODIFIED="1581647255029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$59_k.coverage" NAME="59_排序矩阵中的从小到大第k个数 Coverage Results" MODIFIED="1579308994672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$208_II.coverage" NAME="208_跳跃游戏II Coverage Results" MODIFIED="1580819437750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$182_.coverage" NAME="182_包含所有单词连接的子串 Coverage Results" MODIFIED="1580649320942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$24_II___.coverage" NAME="24_落单的数II_取模的巧妙运用_列表转化为字符串_背 Coverage Results" MODIFIED="1581904059743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$83_.coverage" NAME="83_奇偶分割数组 Coverage Results" MODIFIED="1580382337881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$177_II.coverage" NAME="177_单词划分II Coverage Results" MODIFIED="1580611868447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$38_I.coverage" NAME="38_两数之和I Coverage Results" MODIFIED="1579075788434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$271__.coverage" NAME="271_最多有多少个点在一条直线上_求出斜率和截距硬算 Coverage Results" MODIFIED="1581303997813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$19__.coverage" NAME="19_创建最大数_按列表顺序合并两列表 Coverage Results" MODIFIED="1579658514673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$94_.coverage" NAME="94_交叉字符串 Coverage Results" MODIFIED="1580440479792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$30_.coverage" NAME="30_统计前面比自己小的数 Coverage Results" MODIFIED="1579057915132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$48_ZigZag__.coverage" NAME="48_矩阵元素ZigZag返回_图形轨迹_难 Coverage Results" MODIFIED="1580011311012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$29__.coverage" NAME="29_统计比给定整数小的数_二分查找范围 Coverage Results" MODIFIED="1581908750932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$226_.coverage" NAME="226_摆动排序问题 Coverage Results" MODIFIED="1580901992447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$291__.coverage" NAME="291_正则表达式匹配_检查代码 Coverage Results" MODIFIED="1581411423765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$86_.coverage" NAME="86_最长回文子串 Coverage Results" MODIFIED="1580385090186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$263___.coverage" NAME="263_岛的周长问题_方法很巧_试图用通用的方法求解 Coverage Results" MODIFIED="1581215519914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$267_k.coverage" NAME="267_合并k个排序间隔列表 Coverage Results" MODIFIED="1581219220739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$22_.coverage" NAME="22_下一个更大的数 Coverage Results" MODIFIED="1578972470606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$17__.coverage" NAME="17_下一个稀疏数_二进制的巧妙运用 Coverage Results" MODIFIED="1579606687807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$25_III__.coverage" NAME="25_落单的数III_记住这个定理_背 Coverage Results" MODIFIED="1581904240753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$12__dfs_.coverage" NAME="12_整数替换_dfs_背 Coverage Results" MODIFIED="1581737137265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$18_.coverage" NAME="18_滑动窗口的最大值 Coverage Results" MODIFIED="1578963226149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$50_I_.coverage" NAME="50_搜索二维矩阵I_巧用二维排序矩阵 Coverage Results" MODIFIED="1580023580835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$209_.coverage" NAME="209_翻转游戏 Coverage Results" MODIFIED="1580865360243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$53_DNA_.coverage" NAME="53_DNA重复问题_存在性计数用字典 Coverage Results" MODIFIED="1580025911839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$67__.coverage" NAME="67_最小和子数组_灵活运用动态规划 Coverage Results" MODIFIED="1580777870352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$57__.coverage" NAME="57_直方图中的最大的矩形面积_栈的应用 Coverage Results" MODIFIED="1580123558908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$173_II.coverage" NAME="173_主元素II Coverage Results" MODIFIED="1580559563136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$18__.coverage" NAME="18_滑动窗口的最大值_队列的应用 Coverage Results" MODIFIED="1581756460248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$28_.coverage" NAME="28_镜像数字 Coverage Results" MODIFIED="1579056946019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$69_0.coverage" NAME="69_子数组之和为0 Coverage Results" MODIFIED="1579567791159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$37__.coverage" NAME="37_超级丑数_感觉没必要这么复杂且代码有问题 Coverage Results" MODIFIED="1579752780276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$170_II.coverage" NAME="170_买卖股票的最佳时机II Coverage Results" MODIFIED="1580555366402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$15_.coverage" NAME="15_合并数字 Coverage Results" MODIFIED="1578903579976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$27__.coverage" NAME="27_对称数_字典的巧妙运用 Coverage Results" MODIFIED="1579678961681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$47__.coverage" NAME="47_各位相加_巧用类型转换 Coverage Results" MODIFIED="1580006011371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$106_.coverage" NAME="106_有效回文串 Coverage Results" MODIFIED="1580470934959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$206_.coverage" NAME="206_不同的子序列 Coverage Results" MODIFIED="1580810260346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$292_.coverage" NAME="292_分割标签 Coverage Results" MODIFIED="1581413429032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$222_IV.coverage" NAME="222_迷宫IV Coverage Results" MODIFIED="1580954383662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$49_0.coverage" NAME="49_子矩阵和为0 Coverage Results" MODIFIED="1579223886613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$49_0_.coverage" NAME="49_子矩阵和为0_巧用和矩阵 Coverage Results" MODIFIED="1580022304222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$21_.coverage" NAME="21_交错正负数 Coverage Results" MODIFIED="1578970399925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$218_II.coverage" NAME="218_子集II Coverage Results" MODIFIED="1580872282419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="全排列 Coverage Results" MODIFIED="1580470478197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$188_.coverage" NAME="188_搜索区间 Coverage Results" MODIFIED="1580698416916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$13_.coverage" NAME="13_两个整数相除 Coverage Results" MODIFIED="1578901817350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$5_xn.coverage" NAME="5_x的n次幂 Coverage Results" MODIFIED="1578805656564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$61___.coverage" NAME="61_两个不重叠子数组最大和 _方法新颖 Coverage Results" MODIFIED="1580176011480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$27___.coverage" NAME="27_对称数_字典和队列的巧妙运用_背 Coverage Results" MODIFIED="1581906447423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$81_.coverage" NAME="81_数组中的相同数字 Coverage Results" MODIFIED="1580381379410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$186_II.coverage" NAME="186_会议室II Coverage Results" MODIFIED="1580696449128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$195_.coverage" NAME="195_有效的括号序列 Coverage Results" MODIFIED="1580714453010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$15__heapq_.coverage" NAME="15_合并数字_heapq的应用_背 Coverage Results" MODIFIED="1581755374239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$14_.coverage" NAME="14_整数加法 Coverage Results" MODIFIED="1578902508505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$96_.coverage" NAME="96_最小子串覆盖 Coverage Results" MODIFIED="1580443885163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$205_.coverage" NAME="205_序列重构 Coverage Results" MODIFIED="1580780696219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$88_.coverage" NAME="88_字符串查找 Coverage Results" MODIFIED="1580433228532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$169_I.coverage" NAME="169_买卖股票的最佳时机I Coverage Results" MODIFIED="1580553793088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$213_.coverage" NAME="213_数据流中位数 Coverage Results" MODIFIED="1580867251976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$4__.coverage" NAME="4_求平方根_二分法 Coverage Results" MODIFIED="1581647775781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$43__.coverage" NAME="43_四数之和为定值_同上 Coverage Results" MODIFIED="1579770594600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$8_AB_.coverage" NAME="8_将整数A转换为B_左移位的巧妙运用 Coverage Results" MODIFIED="1581730597638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$225_III.coverage" NAME="225_数字组合III Coverage Results" MODIFIED="1580956791696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$272_.coverage" NAME="272_寻找峰值 Coverage Results" MODIFIED="1581304394657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$28__notInDict_.coverage" NAME="28_镜像数字_notInDict应用_背 Coverage Results" MODIFIED="1581907256633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$90_.coverage" NAME="90_翻转字符串中的单词 Coverage Results" MODIFIED="1580435297948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$287_.coverage" NAME="287_最长公共前缀 Coverage Results" MODIFIED="1581394362217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$63__.coverage" NAME="63_两个不重叠子数组最大差_灵活运用最大和 Coverage Results" MODIFIED="1580182288855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$7___.coverage" NAME="7_四数乘积_小于等于的妙用_背 Coverage Results" MODIFIED="1581730316217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$204_.coverage" NAME="204_最长上升连续子序列 Coverage Results" MODIFIED="1580779397701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$26_IV_.coverage" NAME="26_落单的数IV_用一户就好 Coverage Results" MODIFIED="1581904463617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$34__.coverage" NAME="34_寻找丢失的数_回溯 Coverage Results" MODIFIED="1579749385275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$176_I.coverage" NAME="176_单词划分I Coverage Results" MODIFIED="1580605489662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$14__.coverage" NAME="14_整数加法_底层实现原理 Coverage Results" MODIFIED="1579598393902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$216_II.coverage" NAME="216_打劫房屋II Coverage Results" MODIFIED="1580869858217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$38_I__.coverage" NAME="38_两数之和I_两数之和的应用_背 Coverage Results" MODIFIED="1580345841134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$74_.coverage" NAME="74_最大平均值子数组 Coverage Results" MODIFIED="1580355128880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$297__.coverage" NAME="297 _建立邮局 Coverage Results" MODIFIED="1581473735519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$87_.coverage" NAME="87_转换字符串到整数 Coverage Results" MODIFIED="1580432814097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$259_.coverage" NAME="259_旋转图像 Coverage Results" MODIFIED="1581149786249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$48_ZigZag.coverage" NAME="48_矩阵元素ZigZag返回 Coverage Results" MODIFIED="1579146123176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$52_0.coverage" NAME="52_矩阵归0 Coverage Results" MODIFIED="1579225723506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$61__.coverage" NAME="61_两个不重叠子数组最大和  Coverage Results" MODIFIED="1579482969725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$34_.coverage" NAME="34_寻找丢失的数 Coverage Results" MODIFIED="1579071623350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$19_.coverage" NAME="19_创建最大数 Coverage Results" MODIFIED="1578966456121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$14___.coverage" NAME="14_整数加法_异或实现相加_与运算实现进位 Coverage Results" MODIFIED="1581754759192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$190_.coverage" NAME="190_区间合并 Coverage Results" MODIFIED="1580701465297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$245_.coverage" NAME="245_符号串生成器 Coverage Results" MODIFIED="1581048540995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$27_.coverage" NAME="27_对称数 Coverage Results" MODIFIED="1578994775705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$21__.coverage" NAME="21_交错正负数_代码考虑不周 Coverage Results" MODIFIED="1579662246114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$293_.coverage" NAME="293_装最多水的容器 Coverage Results" MODIFIED="1581418791006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$31_0_n5.coverage" NAME="31_阶乘尾部0的个数_看n个数中有多少个5 Coverage Results" MODIFIED="1581910559226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$41__.coverage" NAME="41_最接近的三数之和_二分查找拓展应用 Coverage Results" MODIFIED="1579766389049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$75_.coverage" NAME="75_搜索旋转排序数组中的最小值Ⅰ Coverage Results" MODIFIED="1580357047027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$107_.coverage" NAME="107_回文对 Coverage Results" MODIFIED="1580471456591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$20_k__.coverage" NAME="20_最接近的k个数_二分查找_背 Coverage Results" MODIFIED="1581816788722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$20_k.coverage" NAME="20_最接近的k个数 Coverage Results" MODIFIED="1578970316898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$54_.coverage" NAME="54_螺旋矩阵 Coverage Results" MODIFIED="1579226864082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$10__.coverage" NAME="10_整数转换为罗马数字_集合的巧妙运用 Coverage Results" MODIFIED="1579593142960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$24_II.coverage" NAME="24_落单的数II Coverage Results" MODIFIED="1578998649606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$172_I.coverage" NAME="172_主元素I Coverage Results" MODIFIED="1580559223010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$104__.coverage" NAME="104_回文排列Ⅱ_利用全排列 Coverage Results" MODIFIED="1580470685587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$189_.coverage" NAME="189_无重叠区间 Coverage Results" MODIFIED="1580699450354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$25_III.coverage" NAME="25_落单的数III Coverage Results" MODIFIED="1579052790790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$95_.coverage" NAME="95_字符串解码 Coverage Results" MODIFIED="1580442216926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$23_I_.coverage" NAME="23_落单的数I_异或的超级适用 Coverage Results" MODIFIED="1579663163539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$212_.coverage" NAME="212_滑动窗口的中位数 Coverage Results" MODIFIED="1580866662162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$47_.coverage" NAME="47_各位相加 Coverage Results" MODIFIED="1579143852253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$238_.coverage" NAME="238_俄罗斯套娃信封 Coverage Results" MODIFIED="1580988906956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$82_.coverage" NAME="82_翻转数组 Coverage Results" MODIFIED="1580381756704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$254_.coverage" NAME="254_寻找数据错误 Coverage Results" MODIFIED="1581133538241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$265__.coverage" NAME="265_最大正方形_动态规划 Coverage Results" MODIFIED="1581217590169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$275__.coverage" NAME="275_最小调整代价_动态规划 Coverage Results" MODIFIED="1581336130970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$69_0_.coverage" NAME="69_子数组之和为0_方法巧妙 Coverage Results" MODIFIED="1580346701852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$45_k.coverage" NAME="45_k数之和 Coverage Results" MODIFIED="1579141629401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$26_IV.coverage" NAME="26_落单的数IV Coverage Results" MODIFIED="1579053297960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$55__.coverage" NAME="55_矩阵走路问题_感觉代码做复杂了且代码有误 Coverage Results" MODIFIED="1580093290881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$59_k_.coverage" NAME="59_排序矩阵中的从小到大第k个数_归并排序的应用 Coverage Results" MODIFIED="1580125102357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$6_.coverage" NAME="6_快速幂 Coverage Results" MODIFIED="1579573835620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$64_I.coverage" NAME="64_两数组的交集I Coverage Results" MODIFIED="1579516554247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$239_.coverage" NAME="239_包裹黑色像素点的最小矩形 Coverage Results" MODIFIED="1580989862615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$70_.coverage" NAME="70_数组划分 Coverage Results" MODIFIED="1580347474370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$102_.coverage" NAME="102_分割回文串Ⅱ Coverage Results" MODIFIED="1580468156221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$71_K_diff.coverage" NAME="71_数组中的K-diff对的数量 Coverage Results" MODIFIED="1580348592429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$185_I.coverage" NAME="185_会议室I Coverage Results" MODIFIED="1580695606272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$210_.coverage" NAME="210_棒球游戏 Coverage Results" MODIFIED="1580866206905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$46_.coverage" NAME="46_二进制求和 Coverage Results" MODIFIED="1579142692220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$23_I__.coverage" NAME="23_落单的数I_异或的超级适用_背 Coverage Results" MODIFIED="1581902362709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$232_II.coverage" NAME="232_不同的路径II Coverage Results" MODIFIED="1580959782537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$262_.coverage" NAME="262_不同岛屿的个数 Coverage Results" MODIFIED="1581214376797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$101_.coverage" NAME="101_分割回文串Ⅰ Coverage Results" MODIFIED="1580455072408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$201_.coverage" NAME="201_将表达式转换为逆波兰表达式 Coverage Results" MODIFIED="1580727706737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$55_.coverage" NAME="55_矩阵走路问题 Coverage Results" MODIFIED="1579230691296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$246_.coverage" NAME="246_用栈实现队列 Coverage Results" MODIFIED="1581062589420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$203_.coverage" NAME="203_乘积最大子序列 Coverage Results" MODIFIED="1580731483771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$4_.coverage" NAME="4_求平方根 Coverage Results" MODIFIED="1578800451992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$103_.coverage" NAME="103_回文排列Ⅰ Coverage Results" MODIFIED="1580469093016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$237_.coverage" NAME="237_搜索插入位置 Coverage Results" MODIFIED="1580978285554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$52_0_.coverage" NAME="52_矩阵归0_巧用二维矩阵 Coverage Results" MODIFIED="1580025891377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$294__.coverage" NAME="294_接雨水_上题的再运用 Coverage Results" MODIFIED="1581419874655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$30__self.coverage" NAME="30_统计前面比自己小的数_self多重调用没搞懂 Coverage Results" MODIFIED="1581908911537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$44__.coverage" NAME="44_骰子求和_等价转化 Coverage Results" MODIFIED="1579830659607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$54__.coverage" NAME="54_螺旋矩阵_轨迹问题 Coverage Results" MODIFIED="1580036284098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$223_I.coverage" NAME="223_数字组合I Coverage Results" MODIFIED="1580954708382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$276__.coverage" NAME="276_背包问题_贪心思想 Coverage Results" MODIFIED="1581333107152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$266__.coverage" NAME="266_最大关联集合_只能硬算 Coverage Results" MODIFIED="1581239489344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$66_k.coverage" NAME="66_乘积小于k的子数组 Coverage Results" MODIFIED="1579517175127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$65_II_.coverage" NAME="65_两数组的交集II_集合计数的应用 Coverage Results" MODIFIED="1580183596436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$298_.coverage" NAME="298_寻找最便宜的航行旅途 Coverage Results" MODIFIED="1581476651950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1581646184347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$73_.coverage" NAME="73_和大于定值的最小长度子数组 Coverage Results" MODIFIED="1580351562069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$35_I.coverage" NAME="35_丑数I Coverage Results" MODIFIED="1579072771628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$56__.coverage" NAME="56_稀疏矩阵乘法_定理 Coverage Results" MODIFIED="1580088019128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$251_.coverage" NAME="251_丢失的间隔问题 Coverage Results" MODIFIED="1581131820445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$60_.coverage" NAME="60_最大和子数组 Coverage Results" MODIFIED="1579479622604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$46__.coverage" NAME="46_二进制求和_巧用进位 Coverage Results" MODIFIED="1580003758672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$274_k.coverage" NAME="274_第k个质数 Coverage Results" MODIFIED="1581306219228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1581910516274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$244_.coverage" NAME="244_三元式解析器 Coverage Results" MODIFIED="1581043799367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$12_.coverage" NAME="12_整数替换 Coverage Results" MODIFIED="1578888268631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$264__.coverage" NAME="264_数字三角形_动态规划 Coverage Results" MODIFIED="1581216759165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$89_.coverage" NAME="89_子字符串的判断 Coverage Results" MODIFIED="1580433536215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$7_.coverage" NAME="7_四数乘积 Coverage Results" MODIFIED="1578882617348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$51_II.coverage" NAME="51_搜索二维矩阵II Coverage Results" MODIFIED="1579225708987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$288_.coverage" NAME="288_解码方法 Coverage Results" MODIFIED="1581408650977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$105_.coverage" NAME="105_回文链表 Coverage Results" MODIFIED="1580522407072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$42_0_.coverage" NAME="42_三数之和为0_二分查找拓展应用 Coverage Results" MODIFIED="1579769089600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$7__.coverage" NAME="7_四数乘积_方法巧妙没搞懂 Coverage Results" MODIFIED="1579588509267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$243_.coverage" NAME="243_移除多余字符 Coverage Results" MODIFIED="1581040646506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$250_.coverage" NAME="250_移动零问题 Coverage Results" MODIFIED="1581129384797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$295_.coverage" NAME="295_加油站 Coverage Results" MODIFIED="1581422114686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$231_I_.coverage" NAME="231_不同的路径I_动态规划代替回溯 Coverage Results" MODIFIED="1580959406719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$296_.coverage" NAME="296_分糖果 Coverage Results" MODIFIED="1581470480407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$60__.coverage" NAME="60_最大和子数组_方法新颖 Coverage Results" MODIFIED="1580180060696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$180_.coverage" NAME="180_单词接龙 Coverage Results" MODIFIED="1580648093517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$29_.coverage" NAME="29_统计比给定整数小的数 Coverage Results" MODIFIED="1579057641572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$247__.coverage" NAME="247_用栈模拟汉诺塔问题_代码有问题 Coverage Results" MODIFIED="1581126210298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$249_.coverage" NAME="249_恢复旋转排序数组问题 Coverage Results" MODIFIED="1581127725987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$187_.coverage" NAME="187_区间最小数 Coverage Results" MODIFIED="1580696962761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$40_III.coverage" NAME="40_两数之和III Coverage Results" MODIFIED="1579077745272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$33__delpop.coverage" NAME="33_删除数字_del和pop运算符的应用 Coverage Results" MODIFIED="1579741496095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$220_II.coverage" NAME="220_迷宫II Coverage Results" MODIFIED="1580887831633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$242_.coverage" NAME="242_判断数独是否合法 Coverage Results" MODIFIED="1581040179693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$97_.coverage" NAME="97_连接两个字符串中的不同字符 Coverage Results" MODIFIED="1580444747273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$200__.coverage" NAME="200_逆波兰表达式求值_栈的应用 Coverage Results" MODIFIED="1580727486955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$219_I.coverage" NAME="219_迷宫I Coverage Results" MODIFIED="1580887846986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$1__.coverage" NAME="1_完美平方_背 Coverage Results" MODIFIED="1581646050612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$58_.coverage" NAME="58_最大矩形 Coverage Results" MODIFIED="1579237226333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$224_II.coverage" NAME="224_数字组合II Coverage Results" MODIFIED="1580956520309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$9_.coverage" NAME="9_罗马数字转换为整数 Coverage Results" MODIFIED="1578880662631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$45_k_DP.coverage" NAME="45_k数之和_DP没看懂 Coverage Results" MODIFIED="1580000852760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$227_.coverage" NAME="227_多关键字排序 Coverage Results" MODIFIED="1580902380690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$13___.coverage" NAME="13_两个整数相除_二进制移位_背 Coverage Results" MODIFIED="1581753274297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$194_.coverage" NAME="194_最长上升子序列 Coverage Results" MODIFIED="1580713783210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$214_.coverage" NAME="214_两个排序数组的中位数 Coverage Results" MODIFIED="1580867632593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$10__complicated.coverage" NAME="10_整数转换为罗马数字_complicated Coverage Results" MODIFIED="1578882706586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$23_I.coverage" NAME="23_落单的数I Coverage Results" MODIFIED="1578973905353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$42_0.coverage" NAME="42_三数之和为0 Coverage Results" MODIFIED="1579089997108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1578751001343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python算法指南" />
-    <SUITE FILE_PATH="coverage/$50_I.coverage" NAME="50_搜索二维矩阵I Coverage Results" MODIFIED="1579224719510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$280_j.coverage" NAME="280_最大间距j Coverage Results" MODIFIED="1581307407124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$256_.coverage" NAME="256_数据流中第一个唯一的数字 Coverage Results" MODIFIED="1581146062060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$98_.coverage" NAME="98_字符串加法 Coverage Results" MODIFIED="1580445119806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$53_DNA.coverage" NAME="53_DNA重复问题 Coverage Results" MODIFIED="1579226719399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$230_.coverage" NAME="230_简化路径 Coverage Results" MODIFIED="1580957862174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$290_.coverage" NAME="290_生成括号 Coverage Results" MODIFIED="1581411026487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$72_.coverage" NAME="72_删除排序数组中的重复数字 Coverage Results" MODIFIED="1580350085503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$11__.coverage" NAME="11_升级版快速排序_背 Coverage Results" MODIFIED="1581736386911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$11_.coverage" NAME="11_快速排序 Coverage Results" MODIFIED="1578885153994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$17___.coverage" NAME="17_下一个稀疏数_二进制的加法_背 Coverage Results" MODIFIED="1581756187044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$13___middle.coverage" NAME="13_两个整数相除_二进制移位_middle Coverage Results" MODIFIED="1579598319527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$16_.coverage" NAME="16_数字判断 Coverage Results" MODIFIED="1579603913279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$193_.coverage" NAME="193_是否为子序列 Coverage Results" MODIFIED="1580711573299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$19___.coverage" NAME="19_创建最大数_按列表顺序合并两列表_背 Coverage Results" MODIFIED="1581816508880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法指南" />
-    <SUITE FILE_PATH="coverage/$179_.coverage" NAME="179_单词搜索 Coverage Results" MODIFIED="1580641421518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$39_II_.coverage" NAME="39_两数之和II_二分查找 Coverage Results" MODIFIED="1579763183179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$37_.coverage" NAME="37_超级丑数 Coverage Results" MODIFIED="1579075029747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$202_.coverage" NAME="202_最长公共子序列 Coverage Results" MODIFIED="1580729745616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$228_.coverage" NAME="228_排颜色 Coverage Results" MODIFIED="1580951829802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$270_.coverage" NAME="270_快乐数判断 Coverage Results" MODIFIED="1581237176807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$283_.coverage" NAME="283_格雷编码 Coverage Results" MODIFIED="1581392070600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$92_.coverage" NAME="92_比较字符串 Coverage Results" MODIFIED="1580436531835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$8_AB.coverage" NAME="8_将整数A转换为B Coverage Results" MODIFIED="1579056371901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$31_0.coverage" NAME="31_阶乘尾部0的个数 Coverage Results" MODIFIED="1579065996289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$76_II_.coverage" NAME="76_搜索旋转排序数组中的最小值II_使用二分法明显要快很多 Coverage Results" MODIFIED="1580367976028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$57_.coverage" NAME="57_直方图中的最大的矩形面积 Coverage Results" MODIFIED="1579237217637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$285_IP.coverage" NAME="285_恢复IP地址 Coverage Results" MODIFIED="1581393345565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$289_.coverage" NAME="289_吹气球 Coverage Results" MODIFIED="1581409610748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$44_.coverage" NAME="44_骰子求和 Coverage Results" MODIFIED="1579139236748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$36_II_heapq.coverage" NAME="36_丑数II_heapq的应用 Coverage Results" MODIFIED="1579751730727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$62_k_.coverage" NAME="62_k个不重叠子数组最大和_没看懂 Coverage Results" MODIFIED="1580176452115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$66_k_.coverage" NAME="66_乘积小于k的子数组_如何做到去重的 Coverage Results" MODIFIED="1580261130744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$171_III.coverage" NAME="171_买卖股票的最佳时机III Coverage Results" MODIFIED="1580558606443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-    <SUITE FILE_PATH="coverage/$64_I_.coverage" NAME="64_两数组的交集I_交集的应用 Coverage Results" MODIFIED="1580182418481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/$199_.coverage" NAME="199_表达式求值 Coverage Results" MODIFIED="1580714962223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法练习" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python算法指南/思路新颖/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/思路新颖/292_分割标签_思路新颖.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#67#337#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构练习/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构练习/一个数的阶乘尾部有多少个0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/python语法/191_区间求和I.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/294_接雨水_二分法应用.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构练习/Python算法指南数据结构/147_前序遍历树和中序遍历树构造二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/变态跳台阶.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/合并两个排序的链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构练习/二叉树遍历/构建二叉树及二叉树的遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/7_四数乘积_回溯.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/二进制中1的个数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/数值的整数次方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/调整数组顺序使奇数在前偶数在后.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/树的子结构.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/动态规划/276_背包问题_这道题不够典型_具体看网址.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/华为机试/质数因子.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/华为机试/识别有效的IP地址和掩码并进行分类统计.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/华为机试/坐标移动.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/input.py" />
-    <entry file="file://$PROJECT_DIR$/VGGnet.py" />
-    <entry file="file://$PROJECT_DIR$/华为机试/购物单.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/回溯递归/182_包含所有单词连接的子串_全排列.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/回溯递归/184_电话号码的字母组合_dfs加回溯.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/回溯递归/266_最大关联集合_deque加set运算解决多重合并问题.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/回溯递归/103_回文排列Ⅰ.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/矩阵图形问题/54_螺旋矩阵_轨迹问题.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/栈_heapq_deque/246_用栈实现队列_取数据时加一个调整函数就可.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/栈_heapq_deque/248_带最小值操作的栈_分成了两个栈进行处理.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools.py" />
-    <entry file="file://$PROJECT_DIR$/train_test.py" />
-    <entry file="file://$PROJECT_DIR$/Python算法指南/214_两个排序数组的中位数_时间复杂度如何满足?.py" />
-    <entry file="file://$PROJECT_DIR$/剑指offer/栈的压入_弹出序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/二叉搜索树的后序遍历序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法指南/1_完美平方_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/华为机试/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/564_寻找最近的回文数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="276" column="34" lean-forward="true" selection-start-line="276" selection-start-column="34" selection-end-line="276" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/862_和至少为k的最短子数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/540_有序数组中的单一元素.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

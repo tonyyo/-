@@ -35,6 +35,25 @@ class Tree(object):
                 queue.append(root.right)
         return result
 
+    def BFS2(root):
+        res = []
+        if root is None:
+            print(res)
+        queue = []
+        queue.append(root)
+        while len(queue) != 0:
+            tmp = []
+            length = len(queue)
+            for i in range(length):
+                r = queue.pop(0)
+                if r.left is not None:
+                    queue.append(r.left)
+                if r.right is not None:
+                    queue.append(r.right)
+                tmp.append(r.val)
+            res.append(tmp)
+        print(res)
+
     def pre_order1(self, root, result):
         if root == None:
             return
