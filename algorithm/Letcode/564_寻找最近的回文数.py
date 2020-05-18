@@ -1,66 +1,68 @@
 class Solution(object):
-    def mirror(self,n:str):
-        length = len(n)
-        half = length // 2
-        if length % 2 == 0:
-            return n[:half] + ''.join(reversed(n[:half]))
+    def mirror(self, Str):
+        N = len(Str)
+        mid = (N - 1) // 2
+        if N % 2 == 0:
+            return Str[:mid + 1] + Str[mid::-1]
         else:
-            return n[:half+1] + ''.join(reversed(n[:half]))
+            return Str[:mid + 1] + Str[mid - 1::-1]
 
-    def get_small(self,n:str):
-        half = len(n) // 2
-        if len(n) % 2 == 0:
-            half -= 1
-        half_num = int (n[:half+1])
-        half_str = str (half_num-1)
-        if half_str == '0' or len(half_str) < half + 1:
-            return '9'*(len(n)-1)
+    def get_small(self, Str):
+        if int(self.mirror(Str)) < int(Str):  # 镜像回文串小于原数，就是小回文串
+            return self.mirror(Str)
+        N = len(Str)
+        mid = (N - 1) // 2
+        if 10 < int(Str) < 20:  # todo 待优化
+            if int(Str) == 11:
+                return "9"
+            else:
+                return "11"
+        if N % 2 == 0:
+            LeftHalf = str(int(Str[:mid + 1]) - 1)
+            return LeftHalf + LeftHalf[::-1]
         else:
-            return self.mirror(half_str+n[half+1:])
+            templen = len(Str[:mid + 1])
+            LeftHalf = str(int(Str[:mid + 1]) - 1)
+            if len(LeftHalf) < templen:   # 10001  todo 待优化
+                return LeftHalf + LeftHalf[::-1]
+            else:
+                return LeftHalf + LeftHalf[-2::-1]
 
-    def get_big(self, n:str):
-        half = len(n) // 2
-        if len(n) % 2 == 0:
-            half -= 1
-        half_num = int (n[:half+1])
-        half_str = str (half_num+1)
-
-        return self.mirror(half_str+n[half+1:])
-
-    #todo 别人的正确解法:
-    # 先取前一半（N）镜像成回文串，跟原数做比较
-    # 如果等于原数，就取两个数，一个大于原数的回文，一个小于原数的回文。
-    # 如果大于原数，就将前一半 N-1 加上剩余的一半再做一次镜像，得到一个小于原数的回文。
-    # 如果小于原数，就将前一半 N+1 加上剩余的一半再做一次镜像，得到一个大于原数的回文。
-    # 其中要考虑N-1的时候的特殊情况，如 1-1，10-1，100-1，等
-    # 这些特殊情况下的处理方式都是一样的，返回原数长度 l-1 个 9即可。
-
-    def nearestPalindromic(self, n: str) -> str:
-        num = int(n)
-        if n == 0:
-            return "1"
-        if num < 10:
-            return str(num - 1)
-
-        palindromic_str = self.mirror(n)
-
-        palindromic_num = int(palindromic_str)
-        if palindromic_num > num:
-            small_num = int(self.get_small(n))
-            big_num = palindromic_num
-        elif palindromic_num < num:
-            small_num = palindromic_num
-            big_num = int(self.get_big(n))
+    def get_big(self, Str):
+        if int(self.mirror(Str)) > int(Str):
+            return self.mirror(Str)
+        N = len(Str)
+        mid = (N - 1) // 2
+        if N % 2 == 0:
+            LeftHalf = str(int(Str[:mid + 1]) + 1)
+            return LeftHalf + LeftHalf[::-1]
         else:
-            small_num = int(self.get_small(n))
-            big_num = int(self.get_big(n))
+            LeftHalf = str(int(Str[:mid + 1]) + 1)
+            return LeftHalf + LeftHalf[-2::-1]
 
-        if abs(big_num - num) < abs(small_num - num):
-            return str(big_num)
-        else:
-            return str(small_num)
+    def nearestPalindromic(self, Str):
+        if len(Str) == 1:
+            if int(Str) == 0:
+                return "1"
+            else:
+                return str(int(Str) - 1)
+        if len(str(int(Str) - 1)) < len(Str): # 10 100 1000
+            return str(int(Str) - 1)
+        if len(str(int(Str) + 1)) > len(Str): # 99 999 99999  todo 待优化
+            return str(int(Str) + 2)
+        small = self.get_small(Str)
+        big = self.get_big(Str)
+        return big if int(big) - int(Str) < int(Str) - int(small) else small
 
     #todo 我的错误解法
+    # 总结别人的解法：其实就是找到大于小于原数的两个大小回文串，看离原树的距离谁更近，就是最接近的。
+    # 将回文串前半部分镜像，得到的回文串，如果大于原数，那么就是最近的大回文串，反之就是最近的的小回文串，
+    # 如果相等，说明原数本身就是回文串，那么将前半部分加1减1再镜像就得到大小回文串，值得注意的是当为原数为奇数位时需讨论加减1会减少的情况；
+    # 其中存在着四种特殊情况：
+    # 1、当原数是个位数时，根据题意，最接近回文串等于原数直接减1就好
+    # 2、当原数是个位数，且等于0时，最小回文串为"1”
+    # 3、当原数是10的非0正整数倍时，最近回文串等于原数减1
+    # 4、 当原数全为9时
     def nearestPalindromic0(self, n):
         strn = str(n)
         if len(strn) == 1 or int(n) == 10:
@@ -90,7 +92,7 @@ class Solution(object):
         return s
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.nearestPalindromic(1))
+    print(solution.nearestPalindromic("10001"))
 
 
 
