@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tonyyo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13633307-bfe2-43ac-9f63-50970f979607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Letcode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Letcode/中等/1372_二叉树的最长交错路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Letcode/中等/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Letcode/困难/1373._二叉搜索子树的最大键值和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Letcode/困难/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Letcode/简单/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/110_平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/110_平衡二叉树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/124_二叉树的最大路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/困难/124_二叉树的最大路径和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/1372_二叉树的最长交错路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/21_合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/21_合并两个有序链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/264_丑数堆实现.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/中等/264_丑数堆实现.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/290_单词规律.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/290_单词规律.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/38_外观数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/38_外观数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/48_旋转图像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/中等/48_旋转图像.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/540_有序数组中的单一元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/中等/540_有序数组中的单一元素.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/543_二叉树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/543_二叉树的直径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/563_二叉树的坡度.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/563_二叉树的坡度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/564_寻找最近的回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/困难/564_寻找最近的回文数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/617_合并二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/617_合并二叉树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/862_和至少为k的最短子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/困难/862_和至少为k的最短子数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/88_合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/简单/88_合并两个有序数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/LCP 14. 切分数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/困难/LCP 14. 切分数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Letcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Letcode代码笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode代码笔记.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/110_平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/110_平衡二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/124_二叉树的最大路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/124_二叉树的最大路径和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/1372_二叉树的最长交错路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/1372_二叉树的最长交错路径.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/21_合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/21_合并两个有序链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/264_丑数堆实现.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/264_丑数堆实现.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/290_单词规律.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/290_单词规律.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/38_外观数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/38_外观数列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/48_旋转图像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/48_旋转图像.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/540_有序数组中的单一元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/540_有序数组中的单一元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/543_二叉树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/543_二叉树的直径.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/563_二叉树的坡度.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/563_二叉树的坡度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/564_寻找最近的回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/564_寻找最近的回文数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/617_合并二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/617_合并二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/862_和至少为k的最短子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/862_和至少为k的最短子数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/88_合并两个有序数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/LCP 14. 切分数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Letcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Letcode/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$tcode代码笔记.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +60,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>temp</find>
-      <find>tempQueue2</find>
-      <find>queue2</find>
-      <find>[i][0]</find>
-      <find>[i][1]</find>
-      <find>is_subStructrue</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>self.temp</replace>
-      <replace>costQueue</replace>
-      <replace>.x</replace>
-      <replace>.y</replace>
-      <replace>is_subTree</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,11 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Letcode/中等" />
+      <recent name="$PROJECT_DIR$/Letcode/困难" />
+      <recent name="$PROJECT_DIR$/Letcode/简单" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="F:\PycharmProjects\算法" />
-      <recent name="F:\PycharmProjects\算法\Python算法指南\没看懂" />
-      <recent name="F:\PycharmProjects\算法\Python算法指南\集合、列表" />
-      <recent name="F:\PycharmProjects\算法\Python算法指南\思路新颖" />
-      <recent name="F:\PycharmProjects\算法\Python算法指南\回溯递归" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PycharmProjects\算法" />
@@ -90,8 +96,8 @@
       <recent name="F:\PycharmProjects\算法\Python算法指南\回溯递归" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.38_外观数列">
-    <configuration name="坐标移动" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1372_二叉树的最长交错路径">
+    <configuration name="质数因子" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="算法" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +109,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为机试/坐标移动.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为机试/质数因子.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1372_二叉树的最长交错路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="算法" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Letcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Letcode/中等/1372_二叉树的最长交错路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,48 +194,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/Letcode/88_合并两个有序数组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LCP 14. 切分数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="算法" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/Letcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/Letcode/LCP 14. 切分数组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="质数因子" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="算法" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/华为机试" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/华为机试/质数因子.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1372_二叉树的最长交错路径" />
         <item itemvalue="Python.38_外观数列" />
         <item itemvalue="Python.88_合并两个有序数组" />
         <item itemvalue="Python.540_有序数组中的单一元素" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.LCP 14. 切分数组" />
       </list>
     </recent_temporary>
   </component>
@@ -346,24 +331,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="140" key="GridCell.Tab.0.bottom" timestamp="1581937439813">
-      <screen x="0" y="27" width="1307" height="741" />
+    <state width="1834" height="199" key="GridCell.Tab.0.bottom" timestamp="1589849247070">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.bottom/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="1259" height="140" key="GridCell.Tab.0.center" timestamp="1581937439813">
-      <screen x="0" y="27" width="1307" height="741" />
+    <state width="1834" height="199" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589849247070" />
+    <state width="1834" height="199" key="GridCell.Tab.0.center" timestamp="1589849247069">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.center/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="1259" height="140" key="GridCell.Tab.0.left" timestamp="1581937439813">
-      <screen x="0" y="27" width="1307" height="741" />
+    <state width="1834" height="199" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589849247069" />
+    <state width="1834" height="199" key="GridCell.Tab.0.left" timestamp="1589849247069">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.left/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
-    <state width="1259" height="140" key="GridCell.Tab.0.right" timestamp="1581937439813">
-      <screen x="0" y="27" width="1307" height="741" />
+    <state width="1834" height="199" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589849247069" />
+    <state width="1834" height="199" key="GridCell.Tab.0.right" timestamp="1589849247069">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.right/0.27.1307.741@0.27.1307.741" timestamp="1581937439813" />
+    <state width="1834" height="199" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1589849247069" />
     <state width="1259" height="140" key="GridCell.Tab.1.bottom" timestamp="1581937439815">
       <screen x="0" y="27" width="1307" height="741" />
     </state>
