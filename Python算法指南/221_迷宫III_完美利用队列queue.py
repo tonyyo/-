@@ -30,21 +30,21 @@ class Solution:
         colNum = len(rooms[0])
         dx = [0, 1, 0, -1]
         dy = [1, 0, -1, 0]
-        import queue
-        duilie = queue.Queue()
+        import collections
+        duilie = collections.deque()
         for i in range(rowNum):
             for j in range(colNum):
                 if rooms[i][j] == 0:
-                    duilie.put([i, j])
-        while not duilie.empty():
-            x, y = duilie.get()
+                    duilie.append([i, j])
+        while duilie:
+            x, y = duilie.popleft()
             for i in range(4):
                 nextX = x + dx[i]
                 nextY = y + dy[i]
                 if nextX < 0 or nextY < 0 or nextX >= rowNum or nextY >= colNum or rooms[nextX][nextY] < rooms[x][y] + 1:
                     continue
                 rooms[nextX][nextY] = rooms[x][y] + 1
-                duilie.put([nextX, nextY])
+                duilie.append([nextX, nextY])
         return rooms
 # 主函数
 if __name__ == '__main__':

@@ -5,7 +5,6 @@ class Solution:
         if len(grid) == 0:
             return 0
         M, N = len(grid), len(grid[0])
-        visit = [[0] * N for _ in range(M)]
         Perim = 0
         import collections
         queue = collections.deque()
@@ -20,11 +19,11 @@ class Solution:
                 break
         while queue:
             x, y = queue.popleft()
-            visit[x][y] = 2
+            grid[x][y] = 0
             Perim += 4
             for i in range(4):
                 nextX, nextY = x + dx[i], y + dy[i]
-                if not (0 <= nextX < M and 0 <= nextY < N) or visit[nextX][nextY] == 2 or grid[nextX][nextY] == 0:
+                if not (0 <= nextX < M and 0 <= nextY < N) or grid[nextX][nextY] == 0:
                     continue
                 if (nextX, nextY) not in queue:  # 特别注意，不要将queue中原本存在的再加一遍。
                     queue.append((nextX, nextY))
