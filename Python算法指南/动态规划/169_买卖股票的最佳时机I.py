@@ -1,6 +1,4 @@
 import sys
-
-
 class Solution:
     def maxProfit(self, prices):
         minPrice, maxLiRun = sys.maxsize, 0
@@ -8,8 +6,6 @@ class Solution:
             minPrice = min(minPrice, prices[i])
             maxLiRun = max(maxLiRun, prices[i] - minPrice)
         return maxLiRun
-
-
 
 if __name__ == '__main__':
     temp = Solution()

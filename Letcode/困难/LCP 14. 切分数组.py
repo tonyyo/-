@@ -5,15 +5,14 @@ class Solution(object):
         f = [1000001] * N  # f[i] 表示nums截止第i个位置时，切分数组所得子数组数的最小值，那么f[i] = min(f[j] + 1)
         f[0] = 1
         for i in range(1, len(f)):
+            f[i] = min(f[i], f[i-1] + 1)
             for j in range(i):
                 if self.gcd(nums[i], nums[j]) > 1:
                     if j == 0:  # 匹配到了第一个数
                         f[i] = 1
                         break
                     else:
-                        f[i] = min(f[i - 1] + 1, f[j - 1] + 1)  # 比较所有可能情况的最小值，核心状态转移方程
-                        if f[i] == 80:
-                            print()
+                        f[i] = min(f[i], f[j - 1] + 1)  # 比较所有可能情况的最小值，核心状态转移方程
             if f[i] == 1000001:  # 没有匹配到任何数
                 f[i] = f[i - 1] + 1
         print(f)

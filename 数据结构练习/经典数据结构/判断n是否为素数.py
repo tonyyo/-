@@ -6,7 +6,7 @@ class Solution():
         for i in range(3, int(math.sqrt(N) + 1)):
             if N != i and N % i == 0:
                 return False
-        return n != 1  # 1不是素数
+        return N != 1  # 1不是素数
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.isPrime(2))
+    print(solution.isPrime(4))
