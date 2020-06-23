@@ -10,12 +10,12 @@ class Solution:
         for i in range(M):
             for j in range(N):
                 if rooms[i][j] == 0:
-                    queue.append((i, j))
+                    queue.append((i, j))  # 初始化queue
         while queue:
             x, y = queue.popleft()
             for i in range(4):
                 nextX, nextY = x + dx[i], y + dy[i]
-                if not (0 <= nextX < M and 0 <= nextY < N) or rooms[nextX][nextY] == -1 or rooms[nextX][nextY] <= rooms[x][y] + 1:
+                if not (0 <= nextX < M and 0 <= nextY < N) or rooms[nextX][nextY] <= rooms[x][y] + 1:
                     continue
                 queue.append((nextX, nextY))
                 rooms[nextX][nextY] = rooms[x][y] + 1

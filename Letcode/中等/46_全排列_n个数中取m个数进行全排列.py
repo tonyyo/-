@@ -5,7 +5,7 @@ class Solution:
         return res
 
     def backTrack(self, nums, k, res, m):  # 从k开始从候选集合中选择元素
-        if k == m:  # 当选择的元素数量达到给定数组的长度时，表明没有了候选元素，为一种排列
+        if k == m:  # 当选择的元素数量达到指定长度时，为一种情况
             res.append(nums[:m])
             return
         for i in range(k, len(nums)):  # k之后的元素都是候选元素

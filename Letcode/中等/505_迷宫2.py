@@ -12,22 +12,18 @@ class Solution(object):
         import collections
         queue = collections.deque()
         queue.append(start)
-        visit[start[0]][start[1]] = 0
-        route = []
         while queue:
             x, y = queue.popleft()
-            route.append((x, y))
-            maze[x][y] = 1
+            maze[x][y] = 1   # 替代了visit数组
             if x == destination[0] and y == destination[1]:
-                return visit[destination[0]][destination[1]]
+                return True
             for i in range(4):
                 nextX, nextY = x + dx[i], y + dy[i]
-                if not (0 <= nextX < M and 0 <= nextY < N) or maze[nextX][nextY] == 1 or visit[nextX][nextY] <= visit[x][y] + 1:
+                if not (0 <= nextX < M and 0 <= nextY < N) or maze[nextX][nextY] == 1:
                     continue
                 if (nextX, nextY) not in queue:
                     queue.append((nextX, nextY))
-                visit[nextX][nextY] = visit[x][y] + 1
-        return 0
+        return False
 
 # 主函数
 if __name__ == '__main__':

@@ -15,7 +15,6 @@ class Solution:
                     if word1[i - 1] != word2[j - 1]: # word1第i个字符和word2第j个字符相等时，相等的时候不需要替换操作
                         left_down += 1
                     dp[i][j] = min(left, down, left_down)
-        print(dp)
         return dp[M][N]
 
     def minDistance2(self, word1, word2):

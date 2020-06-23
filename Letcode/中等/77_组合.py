@@ -4,6 +4,7 @@ class Solution:
         for i in range(1, n + 1):
             nums.append(i)
         res = []
+        nums = [2, 3, 1, 4]
         self.backtrack(nums, res, k, 0, [])
         return res
 

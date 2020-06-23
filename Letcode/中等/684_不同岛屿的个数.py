@@ -14,14 +14,14 @@ class Solution:
                     queue.append((i, j))
                     while queue:
                         x, y = queue.popleft()
-                        grid[x][y] = 0
+                        grid[x][y] = 0          # 已经经过的1赋0，这是关键
                         for k in range(4):
                             nextX, nextY = x + dx[k], y + dy[k]
                             if not (0 <= nextX < M and 0 <= nextY < N) or grid[nextX][nextY] == 0:
                                 continue
                             if (nextX, nextY) not in queue:
                                 queue.append((nextX, nextY))
-                        if not queue:
+                        if not queue:               # 当queue为空时， 表明(x, y)是最后一个元素。
                             path = (x - i, y - j)
                 if path not in res:
                     res.append(path)
