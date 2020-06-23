@@ -11,7 +11,7 @@ class Solution:
         for i in range(rowNum):
             for j in range(colNum):
                 if grid[i][j] == 1:
-                    visited = [[0] * colNum for _ in range(rowNum)]
+                    visited = [[0] * colNum for _ in range(rowNum)]  # visit[x][y]表示(i, j)到(x, y)的最短距离
                     self.dfs(grid, visited, sum, i, j)
         return sum
 
@@ -26,7 +26,7 @@ class Solution:
                 nextX = x + dx[i]
                 nextY = y + dy[i]
                 if not (0 <= nextX < len(grid) and 0 <= nextY < len(grid[0])) or visited[nextX][nextY] != 0 or \
-                        grid[nextX][nextY] == 2:
+                        grid[nextX][nextY] == 2:  # 这里不能用 visited[nextX][nextY] < visited[x][y] + 1，因为障碍物不是-1，可通过的地方也不是无穷大。
                     continue
                 queue.append((nextX, nextY))
                 visited[nextX][nextY] = visited[x][y] + 1
