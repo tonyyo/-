@@ -1,11 +1,11 @@
 class Solution():
     def primeSelect(self, N):
-        isPrime = [True for _ in range(N + 1)]
+        isPrime = [True for _ in range(N + 1)]  # 初始化全为素数， 接着进行筛选
         prime = []
-        for i in range(2, N + 1):
+        for i in range(2, N + 1):   # 从2的倍数开始进行筛选
             if isPrime[i]:
                 prime.append(i)
-            for j in range(i * 2, N + 1, i):
+            for j in range(i * 2, N + 1, i):  # 步长为 i
                 isPrime[j] = False
         return prime
 if __name__ == '__main__':
