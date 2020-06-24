@@ -3,31 +3,18 @@ class Interval(object):
         self.start = start
         self.end = end
 class Solution:
-    def minMeetingRooms2(self, intervals):
-        points = []
-        for interval in intervals:
-            points.append((interval.start, 1))
-            points.append((interval.end, -1))
-        meeting_rooms = 0
-        ongoing_meetings = 0
-        for _, delta in sorted(points):
-            ongoing_meetings += delta
-            meeting_rooms = max(meeting_rooms, ongoing_meetings)
-        return meeting_rooms
-
     def minMeetingRooms(self, intervals):
         size = len(intervals)
-        point = [] # 列表里面用元组进行标记时间点, 而不是用字典, 因为时间点可能会重复, 而字典的key不能重复
+        point = [] # 存取所有时刻，开始时刻和结束时刻
         for interval in intervals:
-            point.append((interval.start, 1))
-            point.append((interval.end, -1))
+            point.append((interval.start, 1))  # 1表示会议室开启
+            point.append((interval.end, -1))   # -1表示会议室关闭
         on_MeetingRoom = 0
         max_MeetingRoom = 0
-        for _, delta in sorted(point):
+        for _, delta in sorted(point):  # 将所有时间点排好序
             on_MeetingRoom += delta
             max_MeetingRoom = max(on_MeetingRoom, max_MeetingRoom)
         return max_MeetingRoom
-
 
 #主函数
 if __name__ == '__main__':
