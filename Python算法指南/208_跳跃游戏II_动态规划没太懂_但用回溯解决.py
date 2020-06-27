@@ -7,16 +7,6 @@ class Solution:
         print(p)
         return p[-1]
 
-    def huisuJump(self, A, steps, result, start):
-        if start >= len(A) - 1:
-            result.append(steps)
-            return
-        for i in range(A[start], 0, -1):
-            steps += 1
-            self.huisuJump(A, steps, result, start + i)
-            steps -= 1
-
-
 if __name__ == '__main__':
     temp = Solution()
     List2 = [1, 3, 5, 2, 1, 3, 1, 1]

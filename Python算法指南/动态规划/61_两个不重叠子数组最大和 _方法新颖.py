@@ -1,3 +1,6 @@
+import sys
+
+
 class Solution:
     def maxTwoSubArrays(self, nums):
         size = len(nums)
@@ -9,14 +12,16 @@ class Solution:
         return MAX
 
     def maxSubArrays(self, arr):
-        SUM, MAX = arr[0], arr[0]
-        for i in range(1, len(arr)):
-            SUM = SUM + arr[i] if SUM > 0 else arr[i]
-            MAX = max(MAX, SUM)
-        return MAX
+        sum, N = -sys.maxsize, len(arr)
+        dp = [0] * N
+        for i in range(N):
+            dp[i] = max(dp[i - 1] + arr[i], arr[i])
+            sum = max(sum, dp[i])
+        return sum
+
 
 if __name__ == '__main__':
     temp = Solution()
-    nums1 = [6, 5, 4, 3, 2]
+    nums1 = [0,6,5,2,2,5,1,9,4]
     print(("输入：" + str(nums1)))
     print(("输出：" + str(temp.maxTwoSubArrays(nums1))))

@@ -1,23 +1,21 @@
 class Solution:
-    def c(self, obstacleGrid):
+    def uniquePathsWithObstacles(self, obstacleGrid):
         m, n = len(obstacleGrid), len(obstacleGrid[0])
-        mp = [[0] * (n + 1) for _ in range(m + 1)]
+        mp = [[0] * n for _ in range(m)]
+        mp[0][0] = 1
         for i in range(m):
             for j in range(n):
-                mp[i + 1][j + 1] = obstacleGrid[i][j]
-
-        for i in range(1, len(mp)):
-            for j in range(1, len(mp[0])):
-                if i == 1 and j == 1:
-                    mp[i][j] = 1
-                elif mp[i][j] == 1:
+                if obstacleGrid[i][j] == 1:  # 遇到障碍物，路径清0
                     mp[i][j] = 0
+                elif i == 0 and j == 0:
+                    mp[i][j] = 1
+                elif i == 0:
+                    mp[i][j] = mp[i][j - 1]
+                elif j == 0:
+                    mp[i][j] = mp[i - 1][j]
                 else:
                     mp[i][j] = mp[i - 1][j] + mp[i][j - 1]
-        for x in mp:
-            print(x)
-        return mp[m][n]
-#主函数
+        return mp[m - 1][n - 1]
 if __name__ == '__main__':
     obstacleGrid = [
         [0, 0, 0],
@@ -28,4 +26,4 @@ if __name__ == '__main__':
     for i in range(0, len(obstacleGrid)):
         print(obstacleGrid[i])
     solution = Solution()
-    print("路径条数：", solution.c(obstacleGrid))
+    print("路径条数：", solution.uniquePathsWithObstacles(obstacleGrid))

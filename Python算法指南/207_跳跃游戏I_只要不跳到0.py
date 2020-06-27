@@ -1,13 +1,11 @@
 class Solution:
     def canJump(self, A):
-        p = 0
-        ans = 0
-        for item in A[:-1]: # 舍去了最后一个字符，很聪明
-            ans = max(ans, p + item)
-            if (ans <= p): # 如果item是0的话就返回False，但这里有一个bug，当item是负数的话也会返回False
-                return False # 其实为负数是可以跳出的，例如2,4,1,-2,1,1
-            p += 1
-        return True
+        max_instance = 0  # 初始化能到达的最远距离
+        N = len(A)
+        for k, v in enumerate(A):
+            if max_instance >= k and k + v > max_instance: # 当前位置可达，更新最大跳数
+                max_instance = k + v
+        return max_instance >= N - 1
 
 if __name__ == '__main__':
     temp = Solution()
