@@ -1,15 +1,13 @@
 import heapq
 class Solution:
-    def nthUglyNumber(self, n):
+    def nthUglyNumber(self, n, a, b, c):
         heap = [1] #　最小丑数
-        visited = set([1])  # 将列表转化为集合
         val = 0
         for _ in range(n):
             val = heapq.heappop(heap)  # 对heap列表建堆并弹出最小值
-            for muti in [2, 3, 5]:
+            for muti in [a, b, c]:
                 result = val * muti
-                if result not in visited:
-                    visited.add(result)
+                if result not in heap:
                     heapq.heappush(heap, result)
         return val
 

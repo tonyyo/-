@@ -2,14 +2,12 @@ import heapq
 class Solution:
     def nthSuperUglyNumber(self, n, primes):
         heap = [1]
-        visited = set([1])
         val = 0
         for _ in range(n):
             val = heapq.heappop(heap)
             for muti in primes:
                 result = muti * val
-                if result not in visited:
-                    visited.add(result)
+                if result not in heap:
                     heapq.heappush(heap, result)
         return val
 #主函数

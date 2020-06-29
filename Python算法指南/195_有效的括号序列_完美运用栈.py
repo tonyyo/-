@@ -1,39 +1,24 @@
 class Solution(object):
-    def isValidParentheses2(self, s):
-        stack = []
-        for ch in s:
-            #压栈
-            if ch == '{' or ch == '[' or ch == '(':
-                stack.append(ch)
-            else:
-                #栈需非空
-                if not stack:
-                    return False
-                #判断栈顶是否匹配
-                if ch == ']' and stack[-1] != '[' or ch == ')' and stack[-1] != '(' or ch == '}' and stack[-1] != '{':
-                    return False
-                #弹栈
-                stack.pop()
-        return not stack
-
-    def isValidParentheses(self, s):
+    def isValid(self, s):
         length = len(s)
         stack = []
         for i in range(length):
-            if s[i] == '(' or s[i] == '[' or s[i] == '{':
+            if s[i] == '(' or s[i] == '[' or s[i] == '{': # 左括号进栈
                 stack.append(s[i])
             else:
-                if s[i] == ')' and stack[-1] != '(' or s[i] == ']' and stack[-1] != '[' or s[i] == '}' and stack[-1] != '{':
+                if len(stack) == 0:  # 防止stack[-1]溢栈
                     return False
-                else:
+                elif s[i] == ')' and stack[-1] != '(' or s[i] == ']' and stack[-1] != '[' or s[i] == '}' and stack[-1] != '{':
+                    return False
+                else:       # 遇到右括号时，弹栈的那个括号必须是对应的左括号
                     stack.pop()
-        return True
+        return True if len(stack) == 0 else False  # 排除只有左括号的情况
 
 
 #主函数
 if  __name__=="__main__":
-    s="()[{}]"
+    s="}{"
     #创建对象
     solution=Solution()
     print("输入的包含括号的字符串是：",s)
-    print("输出的结果是：", solution.isValidParentheses(s))
+    print("输出的结果是：", solution.isValid(s))

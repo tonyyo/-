@@ -5,16 +5,14 @@ class Solution:
             if nums[right] != 0:  # 找到非0数旧位置，赋值给新位置
                 nums[left] = nums[right]
                 left += 1  # 新位置加1，等待接收下一个非0数旧位置
-            right += 1
+            right += 1  # right领先于left, 因为right找的是非0的位置
 
-        while left < len(nums): # 省下的位置补0.
+        while left < len(nums): # 剩下的位置补0.
             nums[left] = 0
             left += 1
         return nums
 
-    # 主函数
-
-
+# 主函数
 if __name__ == "__main__":
     nums = [0, 1, 0, 3, 12]
     # 创建对象

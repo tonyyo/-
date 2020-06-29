@@ -1,26 +1,15 @@
 class Solution:
-    def partitionArray(self, nums):
+    def sortArrayByParity(self, nums):
         start, end = 0, len(nums) - 1
         while start < end:
-            while start < end and nums[start] % 2 == 1: start += 1
-            while start < end and nums[end] % 2 == 0: end -= 1
+            while start < end and nums[start] % 2 == 0: # 找到奇数为止
+                start += 1
+            while start < end and nums[end] % 2 == 1:  # 找到偶数为止
+                end -= 1
             if start < end:
                 nums[start], nums[end] = nums[end], nums[start]
                 start += 1
                 end -= 1
-        return nums
-
-    def partitionArray2(self, nums):
-        size = len(nums)
-        start, end = 0, size - 1
-        while start < end:
-            while nums[start] % 2 == 1:
-                start += 1
-            while nums[end] % 2 == 0:
-                end -= 1
-            nums[start], nums[end] = nums[end], nums[start]
-            start += 1
-            end -= 1
         return nums
 
 if __name__ == "__main__":

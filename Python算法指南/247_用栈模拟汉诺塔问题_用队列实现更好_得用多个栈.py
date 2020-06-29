@@ -19,14 +19,13 @@ class Solution():
             stack3.append(stack2.pop())
         return top, stack3
 
-    def hannoi(self, n, A, B, C):
+    def hannoi(self, n, A, B, C): # 将n个盘子借助B从A移动到C
         if n == 1:
             self.move(A, C)
             return
-        x = n - 1
-        self.hannoi(x, A, C, B)
+        self.hannoi(n - 1, A, C, B)
         self.move(A, C)
-        self.hannoi(x, B, A, C)
+        self.hannoi(n-1, B, A, C)
 
     def move(self, A, B):
         print(A + "->" + B)

@@ -1,15 +1,14 @@
+import collections
+
+
 class Solution:
     def canPermutePalindrome(self, s):
-        lookup = {}
         count = 0
-        for x in s: # 遍历字符串
-            if x not in lookup:
-                lookup[x] = 1 # 初始化
-            else:
-                lookup[x] += 1
+        lookup = collections.Counter(s)  # 计数字符串中字符的个数， 返回以字符为key的字典
+        print(lookup)
         for x in lookup.values():
             count += x % 2 # 计数奇数的个数
-        return count <= 1
+        return count <= 1  # 要么只有一个奇数，要么没有奇数
 
 if __name__ == "__main__":
     s = "abbv"

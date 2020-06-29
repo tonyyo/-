@@ -14,24 +14,6 @@ class Solution:
                 history.append(int(op))
         return sum(history)
 
-    def calPoints(self, ops):
-        stack = []
-        for x in ops:
-            if x == "C":
-                stack.pop()
-            elif x == "D":
-                temp = stack[-1]
-                stack.append(temp * 2)
-            elif x == "+":
-                temp1 = stack[-2]
-                temp2 = stack[-1]
-                stack.append(temp1 + temp2)
-            else:
-                stack.append(int(x))
-        return sum(stack)
-
-
-
 # 主函数
 if __name__ == "__main__":
     ops = ["5", "2", "C", "D", "+"]

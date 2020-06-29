@@ -1,7 +1,7 @@
 class Solution:
     def Power(self, base, exponent):
         result = 1
-        flag = 1 if exponent > 0 else -1
+        flag = 1 if exponent > 0 else -1  # 先判断正负
         exponent = exponent if flag == 1 else -exponent
         while exponent != 0:    # 把指数化成二进制，当指数中没有1的时候，结束循环
             if exponent & 1 == 1: # 举例:10^1101 = 10^0001*10^0100*10^1000。

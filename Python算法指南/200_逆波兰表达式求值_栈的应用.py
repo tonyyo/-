@@ -2,38 +2,16 @@ class Solution:
     def evalRPN2(self, tokens):
         stack = []
         for i in tokens:
-            if i not in ('+', '-', '*', '/'):
+            if i not in ('+', '-', '*', '/'): # 数字入栈
                 stack.append(int(i))
             else:
-                op2 = stack.pop()
-                op1 = stack.pop()
+                op2 = stack.pop()   # 先出栈的是第二个操作数
+                op1 = stack.pop()   # 后出栈的是第一个操作数
                 if i == '+': stack.append(op1 + op2)
                 elif i == '-': stack.append(op1 - op2)
                 elif i == '*': stack.append(op1 * op2)
-                else: stack.append(int(op1 * 1.0 / op2))
+                else: stack.append(int(op1 / op2))  # 题目规定取整
         return stack[0]
-
-    def evalRPN(self, tokens):
-        size = len(tokens)
-        stack = []
-        for x in tokens:
-            if x not in ["+", "-", "*", "/"]:
-                stack.append(x)
-            else:
-                a = int(stack.pop())
-                b = int(stack.pop())
-                result = 0
-                if x == "+":
-                    result = a + b
-                if x == "-":
-                    result = a - b
-                if x == "*":
-                    result = a * b
-                if x == "/":
-                    result = a / b
-                stack.append(result)
-        return stack[-1]
-
 #主函数
 if  __name__=="__main__":
     tokens=["2", "1", "+", "3", "*"]

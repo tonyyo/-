@@ -1,9 +1,7 @@
 class Solution:
     def isUgly(self, n):
-        if n < 0:
+        if n <= 0:
             return False
-        if n == 1:
-            return True
         while n % 2 == 0: # 一直取余, 如果等于0, 说明还有该数的因子, 所以要整除掉它
             n //= 2
         while n % 3 == 0:
