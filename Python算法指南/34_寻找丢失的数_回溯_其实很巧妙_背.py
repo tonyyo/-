@@ -1,26 +1,27 @@
 class Solution:
     def findMissing2(self, n, str):
-        used = [False for _ in range(n + 1)]  # 这里不能从1开始 , 因为这样0无法复制bool, 后面会报错
-        return self.find(n, str, 0, used)
+        used = [False for _ in range(n + 1)]
+        return self.find(n, str, used)
 
-    def find(self, n, str, index, used):  # 从index处开始找丢失的整数
+    def find(self, n, str, used):  # 从index处开始找丢失的整数
         result = []
-        if index >= len(str):  # 因为是从1开始的, 当index达到len时, used中已经赋值完成了
-            for i in range(1, n + 1):  # 1-n没有0
+        if str == "":
+            for i in range(1, n + 1):
                 if not used[i]:
                     result.append(i)
-            return result[0] if len(result) == 1 else -1  # 达到长度时回溯
-        if str[index] == '0':
+            return result[0] if len(result) == 1 else -1  # 找到后，返回target
+        if str[0] == '0':
             return -1  # 为0时直接回溯
         for i in range(1, 3):
-            num = int(str[index: index + i])   # 感觉这才是关键代码
-            if num >= 1 and num <= n and not used[num]:
-                used[num] = True
-                target = self.find(n, str, index + i, used)
-                if target != -1:
-                    return target
-                used[num] = False
-        return -1  # 两种长度的字符串都不满足回溯
+            num = int(str[:i])
+            if not (1 <= num <= n) or used[num]:
+                continue
+            used[num] = True
+            target = self.find(n, str[i:], used)
+            if target != -1:
+                return target
+            used[num] = False
+        return -1# 两种长度的字符串都不满足回溯
 
 
 # 主函数

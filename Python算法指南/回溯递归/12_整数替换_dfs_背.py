@@ -1,28 +1,23 @@
-class Solution:
-    def integeReplacement(self, n):
-        ans = []
-        temp = [n]
-        self.dfs(n, temp, ans)
-        return ans
+import sys
 
-    def dfs(self, n, temp, ans):  # temp存储沿途路径点，ans存储所有可能情况
+
+class Solution:
+    def integerReplacement(self, n):
+        self.len = sys.maxsize
+        self.dfs(n, [n])
+        return self.len - 1
+
+    def dfs(self, n, temp):  # temp记录沿途情况，以便记录替换次数
         if n == 1:
-            if len(ans) == 0:
-                ans.append(temp[:])  # 只赋予值，如果没有后面的[:], 将指向同一个地址
-            else:
-                tempList = ans.pop()
-                ans.append(temp[:] if len(temp) < len(tempList) else tempList)
+            self.len = min(self.len, len(temp))
             return
         if n % 2 == 0:
             temp.append(n // 2)
-            self.dfs(n // 2, temp, ans)  # 一种情况，不存在回溯
+            self.dfs(n // 2, temp)  # 一种情况，不存在回溯
         else:
-            for x in [-1, 1]:
-                temp.append(n + x)
-                self.dfs(n + x, temp, ans)
-                temp.pop()  # 两种情况， 需要回溯
-
+            for x in [-1, 1]:  # 回溯n + 1和n - 1两种情况
+                self.dfs(n + x, temp + [n + x])
 
 if __name__ == '__main__':
     solution = Solution()
-    print("输出:", solution.integeReplacement(18))
+    print("输出:", solution.integerReplacement(18))

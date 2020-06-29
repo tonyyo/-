@@ -64,29 +64,6 @@ class Solution:
             self.search(trie, square, squares)
             square.pop()  # remove the last word
 
-    def wordSquares(self, words):
-        size = len(words)
-        ans = []
-        for i in range(size):
-            results = []
-            tempWords = words.copy()
-            self.quanpailie(0, tempWords, results)
-            for x in results:
-                for _ in range(size - len(tempWords[0])):
-                    x.remove(x[-1])
-                if self.is_dancijuzhen(x) and x not in ans:
-                    ans.append(x)
-        return ans
-
-    def quanpailie(self, start, words, result):  # 从start处开始进行全排列
-        size = len(words)
-        if start >= size:
-            result.append(list(words))
-        for i in range(start, size):
-            words[start], words[i] = words[i], words[start]
-            self.quanpailie(start + 1, words, result)
-            words[start], words[i] = words[i], words[start]
-
     def is_dancijuzhen(self, words):
         size = len(words)
         for i in range(size):
