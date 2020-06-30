@@ -1,27 +1,33 @@
 class Solution:
     def maximalRectangle(self, matrix):
-        rowNum = len(matrix)
-        colNum = len(matrix[0])
+        if len(matrix) == 0:
+            return 0
+        if len(matrix[0]) == 0:
+            return 0
+        rowNum, colNum = len(matrix),len(matrix[0])
+        for i in range(rowNum):                                 # 字符矩阵转为整形矩阵
+            for j in range(colNum):
+                matrix[i][j] = int(matrix[i][j])
         newMatrix = [[0] * (colNum + 1) for _ in range(rowNum + 1)]  # 行多出第一行, 用来上下相加, 列多出一列, 用来以防序列是升序排列,栈无法弹出的情况
         for i in range(1, len(newMatrix)):
             for j in range(colNum):
                 if matrix[i - 1][j] == 1: # 只有本身是1, 才能加上上一行的和
-                    newMatrix[i][j] = newMatrix[i - 1][j] + matrix[i - 1][j]
-        print(newMatrix)
-        stack = []
-        area = 0
-        for i in range(1, len(newMatrix)):
-            for j in range(len(newMatrix[0])):
+                    newMatrix[i][j] = newMatrix[i - 1][j] + matrix[i - 1][j]  # 表示前n行的柱状图高度
+        M, N, area = len(newMatrix), len(newMatrix[0]), 0
+        for i in range(1, M):
+            stack = []                  # 栈需要定义成局部变量
+            for j in range(N):
                 while stack and newMatrix[i][stack[-1]] > newMatrix[i][j]:
                     height_index = stack.pop()
                     height = newMatrix[i][height_index]
-                    width = j - height_index
+                    left_index = stack[-1] if stack else -1
+                    width = j - left_index - 1
                     area = max(area, width * height)
                 stack.append(j)
         return area
 #主函数
 if  __name__=="__main__":
-    matrix=[[1,1,0,0,1],[0,1,0,0,1],[0,0,1,1,1],[1,1,1,1,1],[1,1,1,1,1]]
+    matrix=[["1","0"],["1","0"]]
     #创建对象
     solution=Solution()
     print("输入的布尔类型的二维矩阵是：",matrix)

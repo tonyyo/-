@@ -1,16 +1,19 @@
 class Solution:
     def largestRectangleArea(self, heights):
-        heights.append(0)
+        if len(heights) == 0:
+            return 0
+        heights.append(0)    # 末尾添加最低位， 使得最后所有栈中的元素都会出栈
         length = len(heights)
         area = 0
         stack = []
         for i in range(length):
-            while stack and heights[stack[-1]] > heights[i]:
+            while stack and heights[stack[-1]] > heights[i]:  # 遇到低的就出栈
                 hight_index = stack.pop()
                 hight = heights[hight_index]
-                width = i - hight_index
+                left_index = stack[-1] if stack else -1       # 如果栈为0，那么宽度应该等于弹出位的坐标。
+                width = i - left_index - 1   # 当栈不为空时，宽度等于当前低位坐标减出栈位坐标
                 area = max(area, width * hight)
-            stack.append(i)
+            stack.append(i)    # heights[i]存入栈中时一定是最高的
         return area
 #主函数
 if __name__=="__main__":

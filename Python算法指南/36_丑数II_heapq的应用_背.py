@@ -3,8 +3,9 @@ class Solution:
     def nthUglyNumber(self, n, a, b, c):
         heap = [1] #　最小丑数
         val = 0
-        for _ in range(n):
+        for _ in range(n + 1):
             val = heapq.heappop(heap)  # 对heap列表建堆并弹出最小值
+            print(val, end=" ")
             for muti in [a, b, c]:
                 result = val * muti
                 if result not in heap:
@@ -12,10 +13,8 @@ class Solution:
         return val
 
 if __name__ == '__main__':
-    n = 3
-    print("输入的n是：", n)
     solution = Solution()
-    print("只含素因子2、3、5的第", n, "小的数是：", solution.nthUglyNumber(n))
+    print(solution.nthUglyNumber(5, 2, 11, 13))
 
 # class Solution:
 #     def nthUglyNumber(self, n):
