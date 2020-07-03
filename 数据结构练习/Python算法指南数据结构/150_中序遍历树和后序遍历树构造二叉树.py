@@ -6,21 +6,12 @@ class TreeNode:
 
 class Solution:
     def buildTree(self, inorder, postorder):
-        if not inorder: return None
+        if not inorder:
+            return None
         root = TreeNode(postorder[-1])
         rootPos = inorder.index(postorder[-1])
         root.left = self.buildTree(inorder[: rootPos], postorder[: rootPos])
         root.right = self.buildTree(inorder[rootPos + 1:], postorder[rootPos: -1])
-        return root
-
-    def buildTree2(self, inorder, postorder):
-        if not inorder: # 当其中为空时，也就是当只剩一个元素时
-            return
-        root_val = postorder[-1]
-        root_inorder_pos = inorder.index(root_val)
-        root = TreeNode(root_val)
-        root.left = self.buildTree2(inorder[:root_inorder_pos], postorder[:root_inorder_pos])
-        root.right = self.buildTree2(inorder[root_inorder_pos + 1 :], postorder[root_inorder_pos : len(postorder) - 1])
         return root
 
 def printTree(root):

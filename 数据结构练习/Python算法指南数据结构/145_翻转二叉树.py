@@ -8,25 +8,19 @@ class invertBinaryTree:
 
 
 class Solution:
-    def invertBinaryTree(self, root):
-        self.dfs1(root)
+    def invertTree(self, root):
+        self.dfs(root)
+        return root
 
-    def dfs(self, node):
+    def dfs(self, node):  # 反转以node为根节点的二叉树
+        if node == None:  # 如果node为None无需翻转
+            return None
         left = node.left
         right = node.right
         node.left = right
         node.right = left
         if (left != None): self.dfs(left)
         if (right != None): self.dfs(right)
-
-    def dfs1(self, node):
-        if node == None:
-            return
-        left = self.dfs1(node.left)  # 必须赋临时值，不然会左子树会覆盖右子树
-        right = self.dfs1(node.right)
-        node.left = right
-        node.right = left
-        return node
 
 
 def printTree(root):

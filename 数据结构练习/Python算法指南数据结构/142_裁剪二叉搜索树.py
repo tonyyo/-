@@ -11,24 +11,13 @@ class Solution:
     def trimBST(self, root, minimum, maximum): # 返回符合条件的那颗树
         if not root:
             return None
-        if root.val < minimum:
+        if root.val < minimum:   # 根节点值小于最小值，那么根节点以及左树都将小于，应该只往右走
             return self.trimBST(root.right, minimum, maximum)
-        if root.val > maximum:
+        if root.val > maximum:   # 根节点值大于最大值，那么根节点和右树都将大于，应该只往左走
             return self.trimBST(root.left, minimum, maximum)
-        root.left = self.trimBST(root.left, minimum, maximum)
+        root.left = self.trimBST(root.left, minimum, maximum)  # 根节点满足条件，继续遍历，左右都该走
         root.right = self.trimBST(root.right, minimum, maximum)
         return root
-
-    def trimBST2(self, root, mininum, maximum):  # 对一颗一颗子树进行裁剪， 然后返回。
-        if root is None:
-            return
-        if root.val > maximum: # 当根节点值比最大值大，返回裁剪好的左子树。
-            return self.trimBST2(root.left, mininum, maximum)
-        if root.val < mininum:
-            return self.trimBST2(root.right, mininum, maximum)
-        root.left = self.trimBST2(root.left, mininum, maximum)
-        root.right = self.trimBST2(root.right, mininum, maximum)
-        return root # 当在区间内时， 返回一颗完全的数。
 
 def printTree(root):
     res = []
@@ -64,6 +53,6 @@ if __name__ == '__main__':
     min = 5
     max = 13
     print("给定的max和min分别是", max, min)
-    root0 = solution.trimBST2(root, min, max)
+    root0 = solution.trimBST(root, min, max)
     print("二分搜索树的结果是")
     printTree(root0)

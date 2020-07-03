@@ -4,10 +4,10 @@ import copy
 
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
-        neighborList = dict()
+        neighborList = dict()     # 邻接表是字典类型，key存节点，value存出度点集合
         headList = copy.deepcopy(wordList)  # 深拷贝，互不影响
         headList.insert(0, beginWord)
-        for head in headList:
+        for head in headList:       # keys
             if head == endWord:
                 continue
             tempList = []
@@ -16,7 +16,6 @@ class Solution(object):
                     tempList.append(node)
             if len(tempList) != 0:  # 为空的话没意义
                 neighborList[head] = tempList
-        print(neighborList)
         queue = collections.deque()
         queue.append(beginWord)
         minLen = 1
@@ -25,7 +24,7 @@ class Solution(object):
             length = len(queue)
             for _ in range(length):
                 pos = queue.popleft()
-                if pos == endWord:
+                if pos == endWord:  # bfs遍历到目标点，就是最短路径点
                     return minLen
                 if neighborList.get(pos):  # 必须判断是否存在，否则浏览器报keyError
                     for node in neighborList.get(pos):

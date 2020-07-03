@@ -1,11 +1,12 @@
 class Solution:
     def canJump(self, A):
-        max_instance = 0  # 初始化能到达的最远距离
         N = len(A)
-        for k, v in enumerate(A):
-            if max_instance >= k and k + v > max_instance: # 当前位置可达，更新最大跳数
-                max_instance = k + v
-        return max_instance >= N - 1
+        maxPos = 0
+        for i in range(N):
+            if maxPos >= i and i + A[i] > maxPos:
+                maxPos = i + A[i]  # 如果当前位置可达， 并且从该位置起跳能够达到的跳数大于最远距离
+        return maxPos >= N - 1
+
 
 if __name__ == '__main__':
     temp = Solution()

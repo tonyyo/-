@@ -6,16 +6,16 @@ class TreeNode:
 class Solution:
     def serialize(self, root):
         if not root:
-            return ['#'] # 遇到叶子结点，初始化列表
-        ans = []
-        ans.append(str(root.val))
+            return ['null'] # 遇到叶子结点，返回含null的列表即可
+        ans = []            # 你也可以单独建全局列表，再分一个前序遍历函数
+        ans.append(str(root.val))   # 前序遍历序列化
         ans += self.serialize(root.left) # 列表相连可以用加号
         ans += self.serialize(root.right)
         return ans
 
-    def deserialize(self, data):
-        ch = data.pop(0)  # 根据列表建立树，该种情况只在该情况下可以构建树，不然的话需从中间开始，或者采用2 * n + 1/2 * n + 2。
-        if ch == '#':
+    def deserialize(self, data):  # 将data反序列化为树
+        ch = data.pop(0)  # 根据前序遍历反序列化为树，这里的pop(0)用的很精髓
+        if ch == 'null':
             return None
         else:
             root = TreeNode(int(ch))

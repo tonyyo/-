@@ -3,22 +3,21 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 class BSTIterator:
-#参数root是二叉树的根节点
     def __init__(self, root):
         self.stack = []
         self.pos = root
 
-    def hasNext1(self):
+    def hasNext(self):
         return self.pos is not None or len(self.stack) > 0 # 只有栈为空和指针指向空节点才会返回False
 
-    def next1(self):  # 非递归中序遍历的分解应用，调用一次该函数表示将求出一个中序后继
+    def next(self):  # 非递归中序遍历的分解应用，调用一次该函数表示将求出一个中序后继
         while self.pos is not None:
             self.stack.append(self.pos)
             self.pos = self.pos.left
         self.pos = self.stack.pop()
         nxt = self.pos
         self.pos = self.pos.right
-        return nxt
+        return nxt.val
 
 
 if __name__ == '__main__':

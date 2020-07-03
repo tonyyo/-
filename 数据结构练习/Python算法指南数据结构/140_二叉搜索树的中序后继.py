@@ -2,6 +2,7 @@ class TreeNode:
     def __init__(self, val):
         self.val = val
         self.left, self.right = None, None
+
 class Solution:
     def inorderSuccessor(self, root, p):
         successor = None
@@ -12,23 +13,6 @@ class Solution:
             else:
                 root = root.right
         return successor
-
-    def inorderSuccessor2(self, root, p):
-        stack = []
-        pos = root
-        flag = False
-        while pos is not None or stack:
-            if pos is not None:
-                stack.append(pos)
-                pos = pos.left
-            else:
-                pos = stack.pop()  # 因为这是中序遍历的打印口，该方法适合求前序和中序的后继
-                if flag:
-                    return pos
-                if pos.val == p.val:
-                    flag = True
-                pos = pos.right
-
 
 def printTree(root):
     res = []
@@ -61,4 +45,3 @@ if __name__ == '__main__':
     root0 = solution.inorderSuccessor(root, node)
     print("该节点的后序遍历的后继是")
     print(root0.val)
-    printTree(root0)

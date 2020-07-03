@@ -7,7 +7,9 @@ class TreeNode:
         self.left, self.right = None, None
 
 class Solution:
-    def postorderTraversal2(self, root):
+    def postorderTraversal(self, root):
+        if root == None:
+            return []
         stack1, stack = [], []
         stack1.append(root)
         while stack1:
@@ -46,4 +48,4 @@ if __name__ == '__main__':
     print("原始二叉树为")
     printTree(root)
     solution = Solution()
-    print("后序遍历的结果为", solution.postorderTraversal2(root))
+    print("后序遍历的结果为", solution.postorderTraversal(root))

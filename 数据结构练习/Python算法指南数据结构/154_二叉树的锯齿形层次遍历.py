@@ -3,11 +3,13 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 class Solution:
-    def zigzagLevelOrder2(self, root):
+    def zigzagLevelOrder(self, root):
+        if root is None:
+            return []
         import collections
         queue, result = collections.deque(), []
         queue.append(root)
-        count = 0
+        count = 1
         while queue:
             level = []
             for _ in range(len(queue)):
@@ -17,9 +19,9 @@ class Solution:
                     queue.append(pos.left)
                 if pos.right:
                     queue.append(pos.right)
-            if count % 2 == 0:  # 顺着遍历
+            if count % 2 == 1:  # 奇数层顺着遍历
                 result.append(level)
-            else:               # 反着遍历
+            else:               # 偶数层反着遍历
                 result.append(level[::-1])
             count += 1
         return result
@@ -35,4 +37,3 @@ if __name__ == '__main__':
     root.right.right = TreeNode(7)
     solution = Solution()
     print("锯齿形层次遍历的结果是：", solution.zigzagLevelOrder(root))
-    print("锯齿形层次遍历的结果是：", solution.zigzagLevelOrder2(root))

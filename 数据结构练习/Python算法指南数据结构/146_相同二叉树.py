@@ -3,28 +3,16 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 class Solution:
-    def isIdentical(self, a, b):  # 比较两个数是否相等
+    def isSameTree(self, a, b):  # 比较两个树是否相等
         if a == None and b == None:
             return True
         if a == None or b == None:
             return False
         if a.val != b.val:
             return False
-        a1 = self.isIdentical(a.left, b.left)
-        b1 = self.isIdentical(a.right, b.right)
-        return a1 and b1
-
-    def isIdentical2(self, a, b):
-        if a == None and b == None:
-            return True
-        if a == None or b == None: # 防止a、b中出现没有val值的情况，因为前面已经排除二者皆为None的情况，
-                                    # 所以只要二者其中有None，则不相等
-            return False
-        if a.val != b.val:
-            return False
-        flaga = self.isIdentical2(a.left, b.left)
-        flagb = self.isIdentical2(a.right, b.right)
-        return flaga and flagb # 只要两颗子树为真，那么这棵树就为真。
+        a1 = self.isSameTree(a.left, b.left)
+        b1 = self.isSameTree(a.right, b.right)
+        return a1 and b1   # 节点相等，左树相等，右树相等，那么两棵树相等
 
 def printTree(root):
     res = []

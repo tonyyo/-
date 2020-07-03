@@ -6,13 +6,15 @@ class Solution:
     def binaryTreePaths(self, root):
         if root is None:
             return []
-        result = set([])
-        self.dfs2(root, [], result)
+        result = list()
+        self.dfs(root, [], result)
         return result
 
-    def dfs2(self, node, path, result):
-        path.append(str(node.val))  # 如果你只判断到叶子结点，那么应该放在这
-        if node.left is None and node.right is None:
+    def dfs(self, node, path, result):
+        if node == None:  # 就算判断到叶子节点，页不能省略空节点的判断
+            return
+        path.append(str(node.val))  # 如果你只判断到叶子结点，那么应该放在这, 只能用前序遍历求路径
+        if node.left is None and node.right is None:  # 不能用node == None, 那样的话路径会出现两遍
             result.append('->'.join(path))
             path.pop()
             return
@@ -20,7 +22,7 @@ class Solution:
         self.dfs(node.right, path, result)
         path.pop()
 
-    def dfs(self, node, path, result): # 找到从node到叶子节点的所有路径
+    def dfs2(self, node, path, result): # 找到从node到叶子节点的所有路径
         if node == None: # 不能用这个，不然左右子点都为空的话，那么路径会出现两遍，但这里用的集合，所以可以
             result.add('->'.join(path))
             return

@@ -22,7 +22,7 @@ class Solution:
                 if node.right:
                     queue.append(node.right)
             result.append(level)
-        return list(reversed(result))
+        return list(reversed(result))  # 精髓
 # 主函数
 if __name__ == '__main__':
     root = TreeNode(3)

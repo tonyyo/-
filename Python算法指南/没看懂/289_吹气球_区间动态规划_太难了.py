@@ -7,9 +7,8 @@ class Solution:
         dp = [[0] * n for _ in range(n)]
         for i in range(n - 1, -1, -1):  # 左指针
             for j in range(i + 2, n): # 右指针
-                for k in range(i + 1, j):
+                for k in range(i + 1, j):  # 戳爆中间的气球，两端不可取
                     dp[i][j] = max(dp[i][j], dp[i][k] + dp[k][j] + nums[i] * nums[k] * nums[j])
-        print(dp)
         return dp[0][n - 1]
 
 # 主函数
