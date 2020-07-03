@@ -1,12 +1,18 @@
 import sys
 class Solution:
     def maxSubArray(self, nums):
-        a = nums[:]
-        aa = nums[:]  # 声明为空数组的话只能用append, 不能用索引赋值
-        for i in range(1, len(nums)):
-            a[i] = max(a[i - 1] + nums[i], nums[i])  # 前n项中子数组最大和
-            aa[i] = max(aa[i-1], a[i])
-        return aa[len(aa) - 1]
+        N, maxSum = len(nums), -sys.maxsize
+        # dp = [-sys.maxsize] * N
+        # dp[0] = nums[0]
+        # maxSum = max(dp[0], maxSum) # 位置0也要比较
+        pre = nums[0]
+        maxSum = max(pre, maxSum)
+        for i in range(1, N):
+            # dp[i] = max(dp[i - 1] + nums[i], nums[i])
+            # maxSum = max(maxSum, dp[i])
+            pre = max(pre + nums[i], nums[i])
+            maxSum = max(maxSum, pre)
+        return maxSum
 
 if __name__ == '__main__':
     temp = Solution()

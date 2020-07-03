@@ -1,13 +1,17 @@
+import sys
+
+
 class Solution:
     def minSubArray(self, nums):
-        size = len(nums)
-        prefix_sum = 0
-        min_sum = 65536
-        ans = []
-        for i in range(size):
-            prefix_sum = min(prefix_sum + nums[i], nums[i])
-            ans.append(prefix_sum)
-        return min(ans)
+        N, minSum = len(nums), sys.maxsize
+        dp = [sys.maxsize] * N  # dp[i]以nums[i]结尾的最小子数组和
+        # dp[0] = nums[0]
+        preSum = nums[0]
+        for i in range(1, N):
+            # dp[i] = min(dp[i - 1] + nums[i], nums[i])
+            preSum = min(preSum + nums[i], nums[i])
+            minSum = min(minSum, preSum)
+        return minSum
 
 if __name__ == '__main__':
     temp = Solution()

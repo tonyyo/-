@@ -1,5 +1,5 @@
 class Solution:
-    def change(self, amount: int, coins: [int]) -> int:
+    def change1(self, amount: int, coins: [int]) -> int:
         dp = [0] * (amount + 1) # 凑成总金额为n的组合数
         N = len(coins)
         dp[0] = 1
