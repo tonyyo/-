@@ -16,16 +16,12 @@ class Graph:
         queue.append(point)
         visited_points.append(point)
         while queue:
-            level = []
-            length = len(queue)
-            for _ in range(length):
-                pos = queue.pop(0)
-                level.append(pos.val)
-                for e in pos.outgoing:
-                    if e not in visited_points:  # 模仿遍历左右子树
-                        queue.append(e)
-                        visited_points.append(e)
-            res.extend(level)
+            pos = queue.pop(0)
+            res.append(pos.val)
+            for e in pos.outgoing:
+                if e not in visited_points:  # 模仿遍历左右子树
+                    queue.append(e)
+                    visited_points.append(e)
         return res
 
 if __name__ == '__main__':

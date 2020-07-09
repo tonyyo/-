@@ -8,19 +8,13 @@ class TreeNode(object):
         self.right = None
 
 class Tree(object):
-    def __init__(self, root, List):
-        queue = collections.deque()
-        queue.append(root)
-        List = List[::-1]
-        while len(List) > 0:
-            root = queue.popleft()
-            treeNode = TreeNode(List.pop())
-            root.left = treeNode
-            queue.append(root.left)
-            if len(List) > 0:
-                treeNode2 = TreeNode(List.pop())
-                root.right = treeNode2
-                queue.append(root.right)
+    def buildTree(self, start, A):  # 从start处开始构造普通二叉树，一般从0开始
+        if start >= len(A):
+            return
+        node = TreeNode(A[start])
+        node.left = self.buildTree(2 * start + 1, A)  # 下一个节点为2 * start + 1
+        node.right = self.buildTree(2 * start + 2, A)
+        return node
 
     def BFS(self, root):
         result = []
@@ -46,11 +40,11 @@ class Tree(object):
             length = len(queue)
             for i in range(length):
                 r = queue.pop(0)
+                tmp.append(r.val)
                 if r.left is not None:
                     queue.append(r.left)
                 if r.right is not None:
                     queue.append(r.right)
-                tmp.append(r.val)
             res.append(tmp)
         print(res)
 
@@ -134,6 +128,7 @@ class Tree(object):
 
 if __name__ == '__main__':
     List = [1, 2, 3, 4, 5, 6, 7]
-    root = TreeNode(0)
-    tree = Tree(root, List)
-    print(tree.BFS(root))
+    solution = Tree()
+    root = solution.buildTree(0, List)
+    print(solution.BFS(root))
+    print(solution.post_order2(root))

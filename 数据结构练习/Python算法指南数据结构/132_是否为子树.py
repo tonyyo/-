@@ -14,11 +14,12 @@ class Solution:
     def checkSubTree(self, T1, T2):
         rt = []
         self.pre_order(T1, rt)
-        string = "".join(str(x) for x in rt)
         rt2 = []
         self.pre_order(T2, rt2)
+        string1 = "".join(str(x) for x in rt)
         string2 = "".join(str(x) for x in rt2)
-        return string.find(string2) != -1   # 看T1的前序遍历序列是否包含T2的前序遍历序列
+        return string1.find(string2) != -1
+
 #主函数
 if __name__ == '__main__':
     root1 = TreeNode(1)

@@ -7,12 +7,13 @@ class Solution:
     def inorderSuccessor(self, root, p):
         successor = None
         while root and root.val != p.val:
-            if p.val < root.val:  #  // 只有往左查找时 successor 才需要不断更新
+            if p.val < root.val:
                 successor = root
                 root = root.left
             else:
                 root = root.right
         return successor
+
 
 def printTree(root):
     res = []
