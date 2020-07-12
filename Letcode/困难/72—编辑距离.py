@@ -1,7 +1,7 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         M, N = len(word1), len(word2)
-        dp = [[M+N for _ in range(N + 1)] for _ in range(M + 1)] # dp[i][j] 表示word1[:i]到word2[:j]的编辑距离
+        dp = [[M+N] * (N + 1) for _ in range(M + 1)] # dp[i][j] 表示word前i个字符到word2前j个字符的编辑距离
         for i in range(M + 1):
             for j in range(N + 1):
                 if i == 0:
@@ -9,12 +9,12 @@ class Solution:
                 elif j == 0:
                     dp[i][j] = i
                 else:
-                    left = dp[i - 1][j] + 1
-                    down = dp[i][j - 1] + 1
-                    left_down = dp[i - 1][j - 1]
+                    delete = dp[i - 1][j] + 1
+                    insert = dp[i][j - 1] + 1
+                    replace = dp[i - 1][j - 1]
                     if word1[i - 1] != word2[j - 1]: # word1第i个字符和word2第j个字符相等时，相等的时候不需要替换操作
-                        left_down += 1
-                    dp[i][j] = min(left, down, left_down)
+                        replace += 1
+                    dp[i][j] = min(delete, insert, replace)
         return dp[M][N]
 
     def minDistance2(self, word1, word2):
