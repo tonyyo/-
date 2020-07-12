@@ -8,12 +8,21 @@ class Solution:
     def isSubStructure(self, pRoot1, pRoot2):    # pRoot2树是否是pRoot1树的子结构
         if not pRoot2 or not pRoot1:  # 空树不是任何树的子结构
             return False
-        flag = self.is_subTree(pRoot1, pRoot2)  # 前序遍历挨个判断pRoot2树是否是pRoot1的子树的子结构
-        if flag == False:
-            flag = self.isSubStructure(pRoot1.left, pRoot2)
-        if flag == False:
-            flag = self.isSubStructure(pRoot1.right, pRoot2)
-        return flag                             #  如果找到了就直接返回True， 无需继续判断
+        import collections
+        queue = collections.deque()
+        queue.append(pRoot1)
+        flag = False
+        while queue:
+            pos = queue.popleft()
+            if pos.val == pRoot2.val:
+                flag = self.is_subTree(pos, pRoot2)
+                if flag == True:
+                    return True
+            if pos.left:
+                queue.append(pos.left)
+            if pos.right:
+                queue.append(pos.right)
+        return flag
 
     def is_subTree(self, pRoot1, pRoot2):       # pRoot1和pRoot2的的根节点结构是否相等
         if not pRoot2:  # 从树到了叶子节点, 表明含子结构

@@ -20,13 +20,9 @@ class Solution:
             elif root.left == None and root.right == None:
                 root = None
             elif root.left == None:
-                root.val = root.right.val
-                root.left = root.right.left
-                root.right = root.right.right
+                root = root.right
             elif root.right == None:
-                root.val = root.left.val
-                root.left = root.left.left
-                root.right = root.left.right
+                root = root.left
         return root
 
     def maxVal(self, root):
