@@ -3,34 +3,33 @@ class ListNode(object):
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
-class Solution:
-    def merge(self, head1, head2):
-        newHead = ListNode(0)
-        start = newHead
-        while head1 and head2:
-            if head1.val >= head2.val:
-                start.next = head2
-                start = start.next
-                head2 = head2.next
-            else:
-                start.next = head1
-                start = start.next
-                head1 = head1.next
-        while head1:
-            start.next = head1
-            start = start.next
-            head1 = head1.next
-        while head2:
-            start.next = head2
-            start = start.next
-            head2 = head2.next
-        return newHead.next
 
-    def mergeKList(self, List):
-        tempHead = List[0]
-        for i in range(1, len(List)):
-            tempHead = self.merge(tempHead, List[i])
-        return tempHead
+class Solution:
+    def mergeKLists(self, lists: [ListNode]) -> ListNode: # 合并k个排序链表
+        if len(lists) == 0:
+            return None
+        left, right = 0, len(lists) - 1
+        return self.mergeK(lists, left, right)
+
+    def mergeK(self, lists, left, right):  # 合并list从left到right的有序链表，并返回合并好链表的头节点
+        if left == right:
+            return lists[left]
+        mid = (left + right) // 2
+        leftNode = self.mergeK(lists, left, mid)
+        rightNode = self.mergeK(lists, mid + 1, right)
+        return self.merge(leftNode, rightNode)
+
+    def merge(self, leftNode, rightNode):
+        if not leftNode:
+            return rightNode
+        if not rightNode:
+            return leftNode
+        if leftNode.val < rightNode.val:
+            leftNode.next = self.merge(leftNode.next, rightNode)
+            return leftNode
+        else:
+            rightNode.next = self.merge(leftNode, rightNode.next)
+            return rightNode
 
     #打印链表函数
     def printlist(self, node):
@@ -53,4 +52,4 @@ if __name__ == '__main__':
     solution = Solution()
     A = [node1, node3, node4]
     print("排序后的链表是：", end="")
-    solution.printlist(solution.mergeKList(A))
+    solution.printlist(solution.mergeKLists(A))

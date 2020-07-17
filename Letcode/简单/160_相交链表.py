@@ -6,3 +6,8 @@ class ListNode:
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        ha, hb = headA, headB
+        while ha != hb:
+            ha = ha.next if ha else headB # 这里不应该为hb
+            hb = hb.next if hb else headA
+        return ha

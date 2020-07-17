@@ -1,27 +1,11 @@
 class Solution:
     def findPeakElement(self, nums: [int]) -> int:
-        N = len(nums)
-        if N == 1:
-            return  0
-        if N == 2:
-            return 1 if nums[1] > nums[0] else 0
-        for i in range(1, len(nums) - 1):
-            if nums[i - 1] < nums[i] and nums[i] > nums[i + 1]:
-                return i
-        return 0 if nums[0] > nums[1] else N - 1
-
-    # def findPeakElement(self, nums: [int]) -> int:
-    #     N = len(nums)
-    #     left, right = 0, len(nums) - 1
-    #     while left + 1 < right:
-    #         mid = (left + right) // 2
-    #         if nums[mid - 1] < nums[mid] and nums[mid] > nums[mid + 1]:
-    #             return nums[mid]
-    #         elif nums[mid - 1] < nums[mid] and nums[mid] > nums[mid + 1]:
-    #             start = mid
-    #         else:
-    #             end = mid
-    #     if nums[left] > nums[right]:
-    #         return left
-    #     return end
+        left, right = 0, len(nums) - 1
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] < nums[mid + 1]: # left指向右侧更大的元素
+                left = mid + 1
+            else:                         # right指向左侧更大的原则
+                right = mid
+        return right            # 所以当left==right时，双指针所指元素就是峰值
 

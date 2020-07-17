@@ -1,22 +1,20 @@
 class Solution:
-    def wordBreak(self, s: str, wordDict: [str]) -> bool:
+    def wordBreak(self, s: str, wordDict: [str]):
         N = len(s)
+        if N == 0:
+            return []
         dp = [[] for _ in range(N + 1)]
-        dp[0].append("1")
-        for i in range(N + 1):
+        dp[0] = [""]
+        for i in range(1, N + 1):
             list = []    # 存多个句子
-            for j in range(i + 1):
+            for j in range(i):
                 cur = s[j : i]
-                if len(dp[j]) != 0 and cur in wordDict:
+                if cur in wordDict:
                     for x in dp[j]:
                         midSymbol = "" if len(x) == 0 else " "
                         list.append(x + midSymbol + cur)
-            dp[i] = list if len(list) != 0 else dp[i]
-        # print(dp)
-        result = []
-        for x in dp[-1]:
-            result.append(x[2:])
-        return result
+            dp[i] = list
+        return dp[-1]
 if __name__ == '__main__':
     s = "leetcode"
     wordDict = ['leet', 'code']
