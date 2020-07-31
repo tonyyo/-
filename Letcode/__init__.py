@@ -1,5 +1,5 @@
-import math
-
-print(4294967296 == math.pow(2, 32))
-2147483674
-4294967296
+import heapq
+queue = [1, 2, 3, 4]
+heapq.heapify(queue)
+print(heapq.heappop(queue))
+print(queue)

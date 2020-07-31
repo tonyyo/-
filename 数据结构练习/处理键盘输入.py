@@ -17,3 +17,10 @@ if __name__ == '__main__':
         lineList = list(map(int, string.split()))
         mx.append(lineList)
     print(mx)
+
+    # List = list()
+    # while True:
+    #     try:
+    #         List = list(map(int, input().strip().split()))
+    #     except:
+    #         break
