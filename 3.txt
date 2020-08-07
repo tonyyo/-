@@ -1,0 +1,1 @@
+IF new_balance < minimum_balance THEN overdrawn := TRUE; ELSE overdrawn := FALSE; END IF;

@@ -1,6 +1,7 @@
+
 class Solution():
-    def mergeSort(self, left, right, List):
-        if left >= right:
+    def mergeSort(self, left, right, List):  # 归并排序
+        if left >= right:   # 最终排序还是剩一个元素时，排序完成，然后利用merge进行排序
             return List[left : right + 1]
         mid = (left + right) // 2
         leftList = self.mergeSort(left, mid, List)
@@ -9,21 +10,13 @@ class Solution():
 
     def merge(self, leftList, rightList):
         resultList = []
-        lSize, rSize = len(leftList), len(rightList)
-        i, j = 0, 0
-        while i < lSize and j < rSize:
-            if leftList[i] < rightList[j]:
-                resultList.append(leftList[i])
-                i += 1
+        while leftList and rightList:
+            if leftList[0] < rightList[0]:
+                resultList.append(leftList.pop(0))
             else:
-                resultList.append(rightList[j])
-                j += 1
-        while i < lSize:
-            resultList.append(leftList[i])
-            i += 1
-        while j < rSize:
-            resultList.append(rightList[j])
-            j += 1
+                resultList.append(rightList.pop(0))
+        resultList += leftList
+        resultList += rightList
         return resultList
 
 if __name__ == '__main__':
