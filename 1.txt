@@ -1,1 +1,1 @@
-CREATE PACKAGE BODY pack1 IS PROCEDURE get_net_value (m NUMBER, n NUMBER) AS BEGIN grade := 'B'; first_case grade := 'B'; CASE WHEN grade = 'A' THEN GOTO a;  WHEN grade = 'B' THEN GOTO b; ELSE GOTO c; END CASE first_case; END; END pack1;
+FUNCTION get_bal(acc_no IN NUMBER) RETURN NUMBER IS acc_bal NUMBER; BEGIN SELECT order_total INTO acc_bal FROM orders WHERE customer_id = acc_no; RETURN(acc_bal); END;

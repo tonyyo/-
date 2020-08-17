@@ -14,6 +14,21 @@ class Solution:
                 root = root.right
         return successor
 
+    def inorderSuccessor2(self, root, p):
+        stack, flag = [], False
+        while stack or root:
+            if root:
+                stack.append(root)
+                root = root.left
+            else:
+                pos = stack.pop()
+                if flag:
+                    return pos
+                if pos.val == p.val:
+                    flag = True
+                root = pos.right
+        return None
+
 
 def printTree(root):
     res = []
@@ -44,5 +59,7 @@ if __name__ == '__main__':
     print("给定的节点是")
     printTree(node)
     root0 = solution.inorderSuccessor(root, node)
+    root1 = solution.inorderSuccessor2(root, node)
     print("该节点的后序遍历的后继是")
     print(root0.val)
+    print(root1.val)

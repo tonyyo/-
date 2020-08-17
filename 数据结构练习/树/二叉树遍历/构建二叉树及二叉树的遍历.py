@@ -98,16 +98,16 @@ class Tree(object):
         result.append(root.val)
 
     def post_order2(self, root):
-        stack1, stack2 = [], []
-        stack1.append(root)
-        while stack1:
-            root = stack1.pop()
-            stack2.append(root.val)
+        stack, res = [], []
+        stack.append(root)
+        while stack:
+            root = stack.pop() # 唯一和层次遍历不同的地方
+            res.append(root.val)
             if root.left:
-                stack1.append(root.left)
+                stack.append(root.left)
             if root.right:
-                stack1.append(root.right)
-        return stack2[::-1] # 3 4 1 5 6 2 0
+                stack.append(root.right)
+        return res[::-1] # 层次遍历改成pop(),然后结果逆序
 
     def max_depth(self, root):
         if root == None:
