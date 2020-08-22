@@ -1,13 +1,12 @@
 class Solution():
-    def primeSelect(self, N):
-        isPrime = [True for _ in range(N + 1)]  # 初始化全为素数， 接着进行筛选
-        prime = []
-        for i in range(2, N + 1):   # 从2的倍数开始进行筛选
-            if isPrime[i]:
-                prime.append(i)
-            for j in range(i * 2, N + 1, i):  # 步长为 i
+    def primeSelect(self, N, num):
+        isPrime = [True] * (N + 1)
+        isPrime[0], isPrime[1] = False, False
+        for i in range(2, N + 1):
+            for j in range(2 * i, N + 1, i): # 从2的2倍数开始筛
                 isPrime[j] = False
-        return prime
+        return isPrime[num]
+
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.primeSelect(100))
+    print(solution.primeSelect(100, 8))

@@ -7,9 +7,9 @@ class Solution():
         while left < right:
             while left < right and List[right] > pivot: # 先进行右边指针的移动，不然left指针会移动到最右边
                 right -=1
-            while left < right and List[left] <= pivot: # 那么中间元素就会变成最后一个元素
+            while left < right and List[left] <= pivot: # 因为哨兵在左边, 所以等于的时候也需要右移
                 left += 1
-            if left < right:                            # 也就是说中间元素允许是第一个元素，不允许是最后一个元素
+            if left < right:
                 List[left], List[right] = List[right], List[left]
         List[left], List[start] = List[start], List[left]  # 首元素为哨兵，需要交换和中间元素的位置
         self.quickSort(start, right - 1, List) # left - 1， right + 1正好切分了数组

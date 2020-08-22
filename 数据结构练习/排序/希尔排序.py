@@ -1,19 +1,9 @@
 class Solution():
     def shellSorted(self, List):
         size = len(List)
-        length = size // 2
+        length = size // 2  # 初始步长
         while length != 0:
-            for i in range(length, size, length):
-                for j in range(i - length, -1, -length):
-                    if List[j] > List[j + length]:
-                        List[j], List[j + length] = List[j + length], List[j]
-            length //= 2
-
-    def shellSorted2(self, List):
-        size = len(List)
-        length = size // 2
-        while length != 0:
-            for i in range(size - length):
+            for i in range(size - length):  # 步长减小, 插入排序的范围逐渐变大
                 if List[i] > List[i + length]:
                     List[i], List[i + length] = List[i + length], List[i]
             length //= 2
